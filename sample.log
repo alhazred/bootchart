@@ -1,0 +1,1909 @@
+CPU FUNCTION                                 
+  0 | exec_common:exec-success                <process pid=1 execname=init time=63 />
+  0 | cfork:create                            <fork ppid=1 cpid=4 execname=init time=66 />
+  0 | exec_common:exec-success                <process pid=4 execname=ksh93 time=67 />
+  0 | exec_common:exec-success                <process pid=4 execname=autopush time=87 />
+  0 | proc_exit:exit                          <end pid=4 execname=autopush time=92 />
+  0 | cfork:create                            <fork ppid=1 cpid=5 execname=init time=92 />
+  0 | exec_common:exec-success                <process pid=5 execname=ksh93 time=92 />
+  0 | exec_common:exec-success                <process pid=5 execname=soconfig time=94 />
+  0 | proc_exit:exit                          <end pid=5 execname=soconfig time=97 />
+  0 | cfork:create                            <fork ppid=1 cpid=6 execname=init time=97 />
+  0 | exec_common:exec-success                <process pid=6 execname=ksh93 time=97 />
+  0 | exec_common:exec-success                <process pid=6 execname=svc.startd time=98 />
+  0 | cfork:create                            <fork ppid=6 cpid=7 execname=svc.startd time=99 />
+  0 | proc_exit:exit                          <end pid=6 execname=svc.startd time=99 />
+  0 | cfork:create                            <fork ppid=7 cpid=8 execname=svc.startd time=100 />
+  0 | exec_common:exec-success                <process pid=8 execname=svc.configd time=100 />
+  0 | cfork:create                            <fork ppid=8 cpid=9 execname=svc.configd time=101 />
+  0 | proc_exit:exit                          <end pid=8 execname=svc.configd time=108 />
+  0 | cfork:create                            <fork ppid=7 cpid=10 execname=svc.startd time=114 />
+  0 | exec_common:exec-success                <process pid=10 execname=ksh93 time=114 />
+  0 | cfork:create                            <fork ppid=7 cpid=11 execname=svc.startd time=115 />
+  0 | exec_common:exec-success                <process pid=11 execname=ksh93 time=115 />
+  0 | exec_common:exec-success                <process pid=10 execname=svc-dlmgmtd time=115 />
+  0 | exec_common:exec-success                <process pid=11 execname=net-loopback time=115 />
+  0 | cfork:create                            <fork ppid=10 cpid=12 execname=svc-dlmgmtd time=115 />
+  0 | cfork:create                            <fork ppid=11 cpid=13 execname=net-loopback time=116 />
+  0 | exec_common:exec-success                <process pid=12 execname=dlmgmtd time=116 />
+  0 | cfork:create                            <fork ppid=12 cpid=14 execname=dlmgmtd time=116 />
+  0 | exec_common:exec-success                <process pid=13 execname=zonename time=116 />
+  0 | proc_exit:exit                          <end pid=13 execname=zonename time=116 />
+  0 | cfork:create                            <fork ppid=11 cpid=15 execname=net-loopback time=116 />
+  0 | exec_common:exec-success                <process pid=15 execname=ifconfig time=116 />
+  0 | proc_exit:exit                          <end pid=15 execname=ifconfig time=116 />
+  0 | cfork:create                            <fork ppid=11 cpid=16 execname=net-loopback time=116 />
+  0 | exec_common:exec-success                <process pid=16 execname=ifconfig time=116 />
+  0 | proc_exit:exit                          <end pid=16 execname=ifconfig time=116 />
+  0 | proc_exit:exit                          <end pid=11 execname=net-loopback time=116 />
+  0 | proc_exit:exit                          <end pid=12 execname=dlmgmtd time=117 />
+  0 | proc_exit:exit                          <end pid=10 execname=svc-dlmgmtd time=117 />
+  0 | cfork:create                            <fork ppid=7 cpid=17 execname=svc.startd time=124 />
+  0 | exec_common:exec-success                <process pid=17 execname=ksh93 time=125 />
+  0 | exec_common:exec-success                <process pid=17 execname=net-physical time=125 />
+  0 | cfork:create                            <fork ppid=17 cpid=18 execname=net-physical time=126 />
+  0 | exec_common:exec-success                <process pid=18 execname=zonename time=126 />
+  0 | proc_exit:exit                          <end pid=18 execname=zonename time=126 />
+  0 | cfork:create                            <fork ppid=17 cpid=19 execname=net-physical time=126 />
+  0 | exec_common:exec-success                <process pid=19 execname=netstrategy time=127 />
+  0 | proc_exit:exit                          <end pid=19 execname=netstrategy time=127 />
+  0 | cfork:create                            <fork ppid=17 cpid=20 execname=net-physical time=127 />
+  0 | exec_common:exec-success                <process pid=20 execname=svcprop time=127 />
+  0 | proc_exit:exit                          <end pid=20 execname=svcprop time=127 />
+  0 | cfork:create                            <fork ppid=17 cpid=21 execname=net-physical time=127 />
+  0 | exec_common:exec-success                <process pid=21 execname=dladm time=128 />
+  0 | proc_exit:exit                          <end pid=21 execname=dladm time=128 />
+  0 | cfork:create                            <fork ppid=17 cpid=22 execname=net-physical time=128 />
+  0 | exec_common:exec-success                <process pid=22 execname=dladm time=128 />
+  0 | proc_exit:exit                          <end pid=22 execname=dladm time=128 />
+  0 | cfork:create                            <fork ppid=17 cpid=23 execname=net-physical time=128 />
+  0 | exec_common:exec-success                <process pid=23 execname=dladm time=128 />
+  0 | proc_exit:exit                          <end pid=23 execname=dladm time=128 />
+  0 | cfork:create                            <fork ppid=17 cpid=24 execname=net-physical time=128 />
+  0 | exec_common:exec-success                <process pid=24 execname=ifconfig time=128 />
+  0 | proc_exit:exit                          <end pid=24 execname=ifconfig time=128 />
+  0 | cfork:create                            <fork ppid=17 cpid=25 execname=net-physical time=130 />
+  0 | exec_common:exec-success                <process pid=25 execname=ifconfig time=130 />
+  0 | proc_exit:exit                          <end pid=25 execname=ifconfig time=132 />
+  0 | cfork:create                            <fork ppid=17 cpid=26 execname=net-physical time=132 />
+  0 | exec_common:exec-success                <process pid=26 execname=ifconfig time=132 />
+  0 | proc_exit:exit                          <end pid=26 execname=ifconfig time=132 />
+  0 | cfork:create                            <fork ppid=17 cpid=27 execname=net-physical time=132 />
+  0 | exec_common:exec-success                <process pid=27 execname=dladm time=132 />
+  0 | proc_exit:exit                          <end pid=27 execname=dladm time=132 />
+  0 | cfork:create                            <fork ppid=17 cpid=28 execname=net-physical time=132 />
+  0 | exec_common:exec-success                <process pid=28 execname=ifconfig time=132 />
+  0 | proc_exit:exit                          <end pid=28 execname=ifconfig time=133 />
+  0 | cfork:create                            <fork ppid=17 cpid=29 execname=net-physical time=133 />
+  0 | exec_common:exec-success                <process pid=29 execname=route time=133 />
+  0 | proc_exit:exit                          <end pid=29 execname=route time=133 />
+  0 | cfork:create                            <fork ppid=17 cpid=30 execname=net-physical time=133 />
+  0 | exec_common:exec-success                <process pid=30 execname=devprop time=133 />
+  0 | proc_exit:exit                          <end pid=30 execname=devprop time=134 />
+  0 | cfork:create                            <fork ppid=17 cpid=31 execname=net-physical time=134 />
+  0 | exec_common:exec-success                <process pid=31 execname=ifconfig time=134 />
+  0 | proc_exit:exit                          <end pid=31 execname=ifconfig time=134 />
+  0 | cfork:create                            <fork ppid=17 cpid=32 execname=net-physical time=134 />
+  0 | exec_common:exec-success                <process pid=32 execname=ifconfig time=134 />
+  0 | proc_exit:exit                          <end pid=32 execname=ifconfig time=134 />
+  0 | proc_exit:exit                          <end pid=17 execname=net-physical time=134 />
+  0 | cfork:create                            <fork ppid=7 cpid=33 execname=svc.startd time=155 />
+  0 | exec_common:exec-success                <process pid=33 execname=ksh93 time=155 />
+  0 | exec_common:exec-success                <process pid=33 execname=identity-node time=156 />
+  0 | cfork:create                            <fork ppid=33 cpid=34 execname=identity-node time=156 />
+  0 | exec_common:exec-success                <process pid=34 execname=netstrategy time=156 />
+  0 | proc_exit:exit                          <end pid=34 execname=netstrategy time=156 />
+  0 | cfork:create                            <fork ppid=33 cpid=35 execname=identity-node time=156 />
+  0 | exec_common:exec-success                <process pid=35 execname=uname time=156 />
+  0 | proc_exit:exit                          <end pid=35 execname=uname time=156 />
+  0 | cfork:create                            <fork ppid=33 cpid=36 execname=identity-node time=156 />
+  0 | exec_common:exec-success                <process pid=36 execname=uname time=156 />
+  0 | proc_exit:exit                          <end pid=36 execname=uname time=156 />
+  0 | proc_exit:exit                          <end pid=33 execname=identity-node time=156 />
+  0 | cfork:create                            <fork ppid=7 cpid=37 execname=svc.startd time=164 />
+  0 | exec_common:exec-success                <process pid=37 execname=ksh93 time=164 />
+  0 | exec_common:exec-success                <process pid=37 execname=svc-metainit time=164 />
+  0 | cfork:create                            <fork ppid=37 cpid=38 execname=svc-metainit time=165 />
+  0 | exec_common:exec-success                <process pid=38 execname=metainit time=165 />
+  0 | proc_exit:exit                          <end pid=38 execname=metainit time=166 />
+  0 | proc_exit:exit                          <end pid=37 execname=svc-metainit time=166 />
+  0 | cfork:create                            <fork ppid=7 cpid=39 execname=svc.startd time=167 />
+  0 | exec_common:exec-success                <process pid=39 execname=ksh93 time=168 />
+  0 | exec_common:exec-success                <process pid=39 execname=fs-root time=168 />
+  0 | cfork:create                            <fork ppid=39 cpid=40 execname=fs-root time=168 />
+  0 | exec_common:exec-success                <process pid=40 execname=zfs time=168 />
+  0 | proc_exit:exit                          <end pid=40 execname=zfs time=169 />
+  0 | cfork:create                            <fork ppid=39 cpid=41 execname=fs-root time=169 />
+  0 | exec_common:exec-success                <process pid=41 execname=devfsadm time=169 />
+  0 | proc_exit:exit                          <end pid=41 execname=devfsadm time=171 />
+  0 | cfork:create                            <fork ppid=39 cpid=42 execname=fs-root time=171 />
+  0 | exec_common:exec-success                <process pid=42 execname=moe time=171 />
+  0 | proc_exit:exit                          <end pid=42 execname=moe time=172 />
+  0 | cfork:create                            <fork ppid=39 cpid=43 execname=fs-root time=172 />
+  0 | exec_common:exec-success                <process pid=43 execname=mount time=172 />
+  0 | proc_exit:exit                          <end pid=43 execname=mount time=172 />
+  0 | cfork:create                            <fork ppid=39 cpid=44 execname=fs-root time=172 />
+  0 | exec_common:exec-success                <process pid=44 execname=egrep time=172 />
+  0 | proc_exit:exit                          <end pid=44 execname=egrep time=172 />
+  0 | cfork:create                            <fork ppid=39 cpid=45 execname=fs-root time=172 />
+  0 | exec_common:exec-success                <process pid=45 execname=mount time=172 />
+  0 | exec_common:exec-success                <process pid=45 execname=mount time=173 />
+  0 | proc_exit:exit                          <end pid=45 execname=mount time=173 />
+  0 | cfork:create                            <fork ppid=39 cpid=46 execname=fs-root time=173 />
+  0 | exec_common:exec-success                <process pid=46 execname=uname time=173 />
+  0 | proc_exit:exit                          <end pid=46 execname=uname time=174 />
+  0 | cfork:create                            <fork ppid=39 cpid=47 execname=fs-root time=174 />
+  0 | exec_common:exec-success                <process pid=47 execname=uname time=174 />
+  0 | proc_exit:exit                          <end pid=47 execname=uname time=174 />
+  0 | proc_exit:exit                          <end pid=39 execname=fs-root time=174 />
+  0 | cfork:create                            <fork ppid=7 cpid=48 execname=svc.startd time=182 />
+  0 | exec_common:exec-success                <process pid=48 execname=ksh93 time=182 />
+  0 | cfork:create                            <fork ppid=7 cpid=49 execname=svc.startd time=183 />
+  0 | exec_common:exec-success                <process pid=49 execname=ksh93 time=183 />
+  0 | exec_common:exec-success                <process pid=48 execname=svc-scheduler time=183 />
+  0 | proc_exit:exit                          <end pid=48 execname=svc-scheduler time=183 />
+  0 | exec_common:exec-success                <process pid=49 execname=boot-archive time=184 />
+  0 | cfork:create                            <fork ppid=49 cpid=50 execname=boot-archive time=184 />
+  0 | exec_common:exec-success                <process pid=50 execname=bootadm time=184 />
+  0 | proc_exit:exit                          <end pid=50 execname=bootadm time=185 />
+  0 | proc_exit:exit                          <end pid=49 execname=boot-archive time=185 />
+  0 | cfork:create                            <fork ppid=7 cpid=51 execname=svc.startd time=191 />
+  0 | exec_common:exec-success                <process pid=51 execname=ksh93 time=191 />
+  0 | exec_common:exec-success                <process pid=51 execname=fs-usr time=191 />
+  0 | cfork:create                            <fork ppid=51 cpid=52 execname=fs-usr time=191 />
+  0 | exec_common:exec-success                <process pid=52 execname=swapadd time=191 />
+  0 | cfork:create                            <fork ppid=52 cpid=53 execname=swapadd time=192 />
+  0 | exec_common:exec-success                <process pid=53 execname=expr time=192 />
+  0 | proc_exit:exit                          <end pid=53 execname=expr time=192 />
+  0 | cfork:create                            <fork ppid=52 cpid=54 execname=swapadd time=193 />
+  0 | exec_common:exec-success                <process pid=54 execname=swap time=193 />
+  0 | exec_common:exec-success                <process pid=54 execname=swap time=193 />
+  0 | proc_exit:exit                          <end pid=54 execname=swap time=194 />
+  0 | proc_exit:exit                          <end pid=52 execname=swapadd time=194 />
+  0 | cfork:create                            <fork ppid=51 cpid=55 execname=fs-usr time=194 />
+  0 | exec_common:exec-success                <process pid=55 execname=mount time=194 />
+  0 | exec_common:exec-success                <process pid=55 execname=mount time=195 />
+  0 | proc_exit:exit                          <end pid=55 execname=mount time=195 />
+  0 | proc_exit:exit                          <end pid=51 execname=fs-usr time=195 />
+  0 | cfork:create                            <fork ppid=7 cpid=56 execname=svc.startd time=196 />
+  0 | exec_common:exec-success                <process pid=56 execname=ksh93 time=196 />
+  0 | exec_common:exec-success                <process pid=56 execname=devices-local time=196 />
+  0 | cfork:create                            <fork ppid=56 cpid=57 execname=devices-local time=196 />
+  0 | exec_common:exec-success                <process pid=57 execname=svcprop time=196 />
+  0 | proc_exit:exit                          <end pid=57 execname=svcprop time=196 />
+  0 | cfork:create                            <fork ppid=56 cpid=58 execname=devices-local time=196 />
+  0 | exec_common:exec-success                <process pid=58 execname=prtconf time=196 />
+  0 | exec_common:exec-success                <process pid=58 execname=prtconf time=197 />
+  0 | proc_exit:exit                          <end pid=58 execname=prtconf time=197 />
+  0 | cfork:create                            <fork ppid=7 cpid=59 execname=svc.startd time=197 />
+  0 | exec_common:exec-success                <process pid=59 execname=ksh93 time=197 />
+  0 | exec_common:exec-success                <process pid=59 execname=keymap time=197 />
+  0 | cfork:create                            <fork ppid=59 cpid=60 execname=keymap time=197 />
+  0 | exec_common:exec-success                <process pid=60 execname=set_keyboard_lay time=197 />
+  0 | cfork:create                            <fork ppid=60 cpid=61 execname=set_keyboard_lay time=197 />
+  0 | cfork:create                            <fork ppid=60 cpid=62 execname=set_keyboard_lay time=198 />
+  0 | exec_common:exec-success                <process pid=61 execname=eeprom time=198 />
+  0 | exec_common:exec-success                <process pid=62 execname=grep time=198 />
+  0 | cfork:create                            <fork ppid=61 cpid=63 execname=eeprom time=198 />
+  0 | exec_common:exec-success                <process pid=63 execname=ksh93 time=198 />
+  0 | exec_common:exec-success                <process pid=63 execname=bootadm time=198 />
+  0 | cfork:create                            <fork ppid=63 cpid=64 execname=bootadm time=198 />
+  0 | cfork:create                            <fork ppid=56 cpid=65 execname=devices-local time=198 />
+  0 | exec_common:exec-success                <process pid=64 execname=ksh93 time=198 />
+  0 | exec_common:exec-success                <process pid=64 execname=zfs time=198 />
+  0 | proc_exit:exit                          <end pid=64 execname=zfs time=198 />
+  0 | cfork:create                            <fork ppid=63 cpid=66 execname=bootadm time=198 />
+  0 | exec_common:exec-success                <process pid=66 execname=ksh93 time=198 />
+  0 | exec_common:exec-success                <process pid=66 execname=zfs time=198 />
+  0 | proc_exit:exit                          <end pid=66 execname=zfs time=199 />
+  0 | cfork:create                            <fork ppid=63 cpid=67 execname=bootadm time=199 />
+  0 | exec_common:exec-success                <process pid=65 execname=ls time=199 />
+  0 | proc_exit:exit                          <end pid=65 execname=ls time=199 />
+  0 | exec_common:exec-success                <process pid=67 execname=ksh93 time=199 />
+  0 | exec_common:exec-success                <process pid=67 execname=zfs time=199 />
+  0 | cfork:create                            <fork ppid=56 cpid=68 execname=devices-local time=199 />
+  0 | exec_common:exec-success                <process pid=68 execname=awk time=199 />
+  0 | proc_exit:exit                          <end pid=68 execname=awk time=199 />
+  0 | cfork:create                            <fork ppid=56 cpid=69 execname=devices-local time=199 />
+  0 | exec_common:exec-success                <process pid=69 execname=zfs time=199 />
+  0 | proc_exit:exit                          <end pid=69 execname=zfs time=199 />
+  0 | cfork:create                            <fork ppid=56 cpid=70 execname=devices-local time=199 />
+  0 | exec_common:exec-success                <process pid=70 execname=swapadd time=200 />
+  0 | cfork:create                            <fork ppid=70 cpid=71 execname=swapadd time=200 />
+  0 | exec_common:exec-success                <process pid=71 execname=expr time=200 />
+  0 | proc_exit:exit                          <end pid=71 execname=expr time=200 />
+  0 | cfork:create                            <fork ppid=70 cpid=72 execname=swapadd time=200 />
+  0 | exec_common:exec-success                <process pid=72 execname=swap time=200 />
+  0 | exec_common:exec-success                <process pid=72 execname=swap time=200 />
+  0 | proc_exit:exit                          <end pid=72 execname=swap time=200 />
+  0 | cfork:create                            <fork ppid=70 cpid=73 execname=swapadd time=200 />
+  0 | exec_common:exec-success                <process pid=73 execname=grep time=200 />
+  0 | proc_exit:exit                          <end pid=73 execname=grep time=200 />
+  0 | proc_exit:exit                          <end pid=70 execname=swapadd time=200 />
+  0 | proc_exit:exit                          <end pid=56 execname=devices-local time=200 />
+  0 | cfork:create                            <fork ppid=7 cpid=74 execname=svc.startd time=200 />
+  0 | exec_common:exec-success                <process pid=74 execname=ksh93 time=201 />
+  0 | exec_common:exec-success                <process pid=74 execname=fs-minimal time=202 />
+  0 | cfork:create                            <fork ppid=74 cpid=75 execname=fs-minimal time=202 />
+  0 | exec_common:exec-success                <process pid=75 execname=zfs time=202 />
+  0 | proc_exit:exit                          <end pid=75 execname=zfs time=202 />
+  0 | cfork:create                            <fork ppid=74 cpid=76 execname=fs-minimal time=202 />
+  0 | exec_common:exec-success                <process pid=76 execname=zfs time=202 />
+  0 | proc_exit:exit                          <end pid=76 execname=zfs time=203 />
+  0 | cfork:create                            <fork ppid=74 cpid=77 execname=fs-minimal time=203 />
+  0 | exec_common:exec-success                <process pid=77 execname=mount time=203 />
+  0 | proc_exit:exit                          <end pid=67 execname=zfs time=203 />
+  0 | cfork:create                            <fork ppid=63 cpid=78 execname=bootadm time=203 />
+  0 | exec_common:exec-success                <process pid=78 execname=ksh93 time=203 />
+  0 | exec_common:exec-success                <process pid=78 execname=zfs time=203 />
+  0 | exec_common:exec-success                <process pid=77 execname=mount time=203 />
+  0 | proc_exit:exit                          <end pid=77 execname=mount time=203 />
+  0 | proc_exit:exit                          <end pid=78 execname=zfs time=203 />
+  0 | cfork:create                            <fork ppid=74 cpid=79 execname=fs-minimal time=203 />
+  0 | exec_common:exec-success                <process pid=79 execname=mount time=203 />
+  0 | exec_common:exec-success                <process pid=79 execname=mount time=203 />
+  0 | proc_exit:exit                          <end pid=79 execname=mount time=203 />
+  0 | cfork:create                            <fork ppid=63 cpid=80 execname=bootadm time=203 />
+  0 | exec_common:exec-success                <process pid=80 execname=ksh93 time=203 />
+  0 | exec_common:exec-success                <process pid=80 execname=zfs time=204 />
+  0 | cfork:create                            <fork ppid=74 cpid=81 execname=fs-minimal time=204 />
+  0 | exec_common:exec-success                <process pid=81 execname=zfs time=204 />
+  0 | proc_exit:exit                          <end pid=81 execname=zfs time=205 />
+  0 | proc_exit:exit                          <end pid=74 execname=fs-minimal time=205 />
+  0 | cfork:create                            <fork ppid=7 cpid=82 execname=svc.startd time=206 />
+  0 | exec_common:exec-success                <process pid=82 execname=ksh93 time=206 />
+  0 | cfork:create                            <fork ppid=7 cpid=83 execname=svc.startd time=207 />
+  0 | exec_common:exec-success                <process pid=83 execname=ksh93 time=207 />
+  0 | exec_common:exec-success                <process pid=82 execname=svc-hostid time=207 />
+  0 | cfork:create                            <fork ppid=82 cpid=84 execname=svc-hostid time=207 />
+  0 | proc_exit:exit                          <end pid=80 execname=zfs time=207 />
+  0 | proc_exit:exit                          <end pid=63 execname=bootadm time=207 />
+  0 | cfork:create                            <fork ppid=61 cpid=85 execname=eeprom time=207 />
+  0 | exec_common:exec-success                <process pid=85 execname=ksh93 time=207 />
+  0 | exec_common:exec-success                <process pid=85 execname=bootadm time=207 />
+  0 | cfork:create                            <fork ppid=85 cpid=86 execname=bootadm time=207 />
+  0 | exec_common:exec-success                <process pid=86 execname=ksh93 time=207 />
+  0 | exec_common:exec-success                <process pid=86 execname=zfs time=208 />
+  0 | exec_common:exec-success                <process pid=84 execname=uname time=208 />
+  0 | proc_exit:exit                          <end pid=84 execname=uname time=208 />
+  0 | proc_exit:exit                          <end pid=82 execname=svc-hostid time=208 />
+  0 | exec_common:exec-success                <process pid=83 execname=svc-metasync time=209 />
+  0 | cfork:create                            <fork ppid=83 cpid=87 execname=svc-metasync time=209 />
+  0 | exec_common:exec-success                <process pid=87 execname=grep time=209 />
+  0 | cfork:create                            <fork ppid=7 cpid=88 execname=svc.startd time=209 />
+  0 | exec_common:exec-success                <process pid=88 execname=ksh93 time=209 />
+  0 | exec_common:exec-success                <process pid=88 execname=svc-resource-mgm time=209 />
+  0 | proc_exit:exit                          <end pid=87 execname=grep time=209 />
+  0 | proc_exit:exit                          <end pid=83 execname=svc-metasync time=209 />
+  0 | cfork:create                            <fork ppid=7 cpid=89 execname=svc.startd time=210 />
+  0 | exec_common:exec-success                <process pid=89 execname=ksh93 time=210 />
+  0 | proc_exit:exit                          <end pid=88 execname=svc-resource-mgm time=210 />
+  0 | exec_common:exec-success                <process pid=89 execname=svc-nscd time=210 />
+  0 | cfork:create                            <fork ppid=89 cpid=90 execname=svc-nscd time=210 />
+  0 | exec_common:exec-success                <process pid=90 execname=nscd time=210 />
+  0 | proc_exit:exit                          <end pid=86 execname=zfs time=210 />
+  0 | cfork:create                            <fork ppid=85 cpid=91 execname=bootadm time=210 />
+  0 | exec_common:exec-success                <process pid=91 execname=ksh93 time=210 />
+  0 | exec_common:exec-success                <process pid=91 execname=zfs time=211 />
+  0 | proc_exit:exit                          <end pid=89 execname=svc-nscd time=211 />
+  0 | proc_exit:exit                          <end pid=91 execname=zfs time=211 />
+  0 | cfork:create                            <fork ppid=85 cpid=92 execname=bootadm time=211 />
+  0 | exec_common:exec-success                <process pid=92 execname=ksh93 time=211 />
+  0 | exec_common:exec-success                <process pid=92 execname=zfs time=211 />
+  0 | cfork:create                            <fork ppid=7 cpid=93 execname=svc.startd time=211 />
+  0 | exec_common:exec-success                <process pid=93 execname=ksh93 time=211 />
+  0 | proc_exit:exit                          <end pid=92 execname=zfs time=211 />
+  0 | cfork:create                            <fork ppid=85 cpid=94 execname=bootadm time=211 />
+  0 | exec_common:exec-success                <process pid=94 execname=ksh93 time=211 />
+  0 | exec_common:exec-success                <process pid=94 execname=zfs time=211 />
+  0 | exec_common:exec-success                <process pid=93 execname=identity-domain time=211 />
+  0 | proc_exit:exit                          <end pid=93 execname=identity-domain time=212 />
+  0 | proc_exit:exit                          <end pid=94 execname=zfs time=212 />
+  0 | cfork:create                            <fork ppid=85 cpid=95 execname=bootadm time=212 />
+  0 | exec_common:exec-success                <process pid=95 execname=ksh93 time=212 />
+  0 | exec_common:exec-success                <process pid=95 execname=zfs time=212 />
+  0 | cfork:create                            <fork ppid=7 cpid=96 execname=svc.startd time=212 />
+  0 | exec_common:exec-success                <process pid=96 execname=ksh93 time=212 />
+  0 | cfork:create                            <fork ppid=7 cpid=97 execname=svc.startd time=213 />
+  0 | exec_common:exec-success                <process pid=97 execname=ksh93 time=213 />
+  0 | exec_common:exec-success                <process pid=96 execname=cryptoadm time=213 />
+  0 | cfork:create                            <fork ppid=7 cpid=98 execname=svc.startd time=213 />
+  0 | exec_common:exec-success                <process pid=98 execname=ksh93 time=213 />
+  0 | cfork:create                            <fork ppid=90 cpid=99 execname=nscd time=213 />
+  0 | proc_exit:exit                          <end pid=95 execname=zfs time=213 />
+  0 | proc_exit:exit                          <end pid=85 execname=bootadm time=213 />
+  0 | cfork:create                            <fork ppid=61 cpid=100 execname=eeprom time=213 />
+  0 | exec_common:exec-success                <process pid=100 execname=ksh93 time=213 />
+  0 | exec_common:exec-success                <process pid=100 execname=bootadm time=214 />
+  0 | exec_common:exec-success                <process pid=98 execname=ppd-cache-update time=214 />
+  0 | exec_common:exec-success                <process pid=97 execname=manifest-import time=214 />
+  0 | cfork:create                            <fork ppid=97 cpid=101 execname=manifest-import time=214 />
+  0 | cfork:create                            <fork ppid=100 cpid=102 execname=bootadm time=214 />
+  0 | cfork:create                            <fork ppid=98 cpid=103 execname=ppd-cache-update time=214 />
+  0 | exec_common:exec-success                <process pid=101 execname=svcprop time=214 />
+  0 | exec_common:exec-success                <process pid=102 execname=ksh93 time=215 />
+  0 | exec_common:exec-success                <process pid=102 execname=zfs time=215 />
+  0 | proc_exit:exit                          <end pid=102 execname=zfs time=215 />
+  0 | cfork:create                            <fork ppid=100 cpid=104 execname=bootadm time=215 />
+  0 | exec_common:exec-success                <process pid=104 execname=ksh93 time=215 />
+  0 | exec_common:exec-success                <process pid=104 execname=zfs time=215 />
+  0 | proc_exit:exit                          <end pid=104 execname=zfs time=215 />
+  0 | cfork:create                            <fork ppid=100 cpid=105 execname=bootadm time=215 />
+  0 | exec_common:exec-success                <process pid=105 execname=ksh93 time=215 />
+  0 | exec_common:exec-success                <process pid=105 execname=zfs time=215 />
+  0 | exec_common:exec-success                <process pid=103 execname=ppdmgr time=215 />
+  0 | exec_common:exec-success                <process pid=96 execname=kcfd time=216 />
+  0 | cfork:create                            <fork ppid=96 cpid=106 execname=kcfd time=216 />
+  0 | cfork:create                            <fork ppid=7 cpid=107 execname=svc.startd time=216 />
+  0 | exec_common:exec-success                <process pid=107 execname=ksh93 time=216 />
+  0 | exec_common:exec-success                <process pid=103 execname=ksh93 time=216 />
+  0 | exec_common:exec-success                <process pid=103 execname=ksh93 time=216 />
+  0 | exec_common:exec-success                <process pid=107 execname=svc-syseventd time=216 />
+  0 | cfork:create                            <fork ppid=103 cpid=108 execname=ksh93 time=216 />
+  0 | cfork:create                            <fork ppid=107 cpid=109 execname=svc-syseventd time=216 />
+  0 | proc_exit:exit                          <end pid=105 execname=zfs time=216 />
+  0 | cfork:create                            <fork ppid=100 cpid=110 execname=bootadm time=216 />
+  0 | exec_common:exec-success                <process pid=108 execname=basename time=217 />
+  0 | proc_exit:exit                          <end pid=108 execname=basename time=217 />
+  0 | exec_common:exec-success                <process pid=110 execname=ksh93 time=217 />
+  0 | exec_common:exec-success                <process pid=110 execname=zfs time=217 />
+  0 | proc_exit:exit                          <end pid=110 execname=zfs time=217 />
+  0 | cfork:create                            <fork ppid=103 cpid=111 execname=ksh93 time=217 />
+  0 | exec_common:exec-success                <process pid=109 execname=syseventd time=217 />
+  0 | cfork:create                            <fork ppid=109 cpid=112 execname=syseventd time=217 />
+  0 | cfork:create                            <fork ppid=7 cpid=113 execname=svc.startd time=217 />
+  0 | exec_common:exec-success                <process pid=113 execname=ksh93 time=217 />
+  0 | cfork:create                            <fork ppid=100 cpid=114 execname=bootadm time=217 />
+  0 | exec_common:exec-success                <process pid=114 execname=ksh93 time=217 />
+  0 | exec_common:exec-success                <process pid=114 execname=zfs time=217 />
+  0 | exec_common:exec-success                <process pid=111 execname=mkdir time=217 />
+  0 | proc_exit:exit                          <end pid=111 execname=mkdir time=217 />
+  0 | cfork:create                            <fork ppid=103 cpid=115 execname=ksh93 time=218 />
+  0 | cfork:create                            <fork ppid=7 cpid=116 execname=svc.startd time=218 />
+  0 | exec_common:exec-success                <process pid=116 execname=ksh93 time=218 />
+  0 | exec_common:exec-success                <process pid=115 execname=chmod time=218 />
+  0 | exec_common:exec-success                <process pid=116 execname=rmtmpfiles time=218 />
+  0 | proc_exit:exit                          <end pid=115 execname=chmod time=218 />
+  0 | cfork:create                            <fork ppid=103 cpid=117 execname=ksh93 time=218 />
+  0 | cfork:create                            <fork ppid=116 cpid=118 execname=rmtmpfiles time=218 />
+  0 | exec_common:exec-success                <process pid=113 execname=svc-power time=219 />
+  0 | cfork:create                            <fork ppid=113 cpid=119 execname=svc-power time=219 />
+  0 | exec_common:exec-success                <process pid=118 execname=mount time=219 />
+  0 | proc_exit:exit                          <end pid=118 execname=mount time=219 />
+  0 | exec_common:exec-success                <process pid=117 execname=chown time=219 />
+  0 | proc_exit:exit                          <end pid=117 execname=chown time=219 />
+  0 | cfork:create                            <fork ppid=103 cpid=120 execname=ksh93 time=220 />
+  0 | exec_common:exec-success                <process pid=119 execname=uadmin time=220 />
+  0 | exec_common:exec-success                <process pid=120 execname=ls time=220 />
+  0 | proc_exit:exit                          <end pid=114 execname=zfs time=220 />
+  0 | proc_exit:exit                          <end pid=100 execname=bootadm time=220 />
+  0 | proc_exit:exit                          <end pid=61 execname=eeprom time=220 />
+  0 | proc_exit:exit                          <end pid=62 execname=grep time=220 />
+  0 | cfork:create                            <fork ppid=60 cpid=121 execname=set_keyboard_lay time=220 />
+  0 | exec_common:exec-success                <process pid=121 execname=eeprom time=220 />
+  0 | proc_exit:exit                          <end pid=121 execname=eeprom time=220 />
+  0 | cfork:create                            <fork ppid=60 cpid=122 execname=set_keyboard_lay time=221 />
+  0 | proc_exit:exit                          <end pid=120 execname=ls time=221 />
+  0 | proc_exit:exit                          <end pid=119 execname=uadmin time=221 />
+  0 | cfork:create                            <fork ppid=113 cpid=123 execname=svc-power time=221 />
+  0 | cfork:create                            <fork ppid=116 cpid=124 execname=rmtmpfiles time=221 />
+  0 | proc_exit:exit                          <end pid=96 execname=kcfd time=221 />
+  0 | exec_common:exec-success                <process pid=122 execname=sed time=221 />
+  0 | proc_exit:exit                          <end pid=122 execname=sed time=221 />
+  0 | cfork:create                            <fork ppid=60 cpid=125 execname=set_keyboard_lay time=221 />
+  0 | exec_common:exec-success                <process pid=123 execname=pmconfig time=221 />
+  0 | cfork:create                            <fork ppid=103 cpid=126 execname=ksh93 time=221 />
+  0 | cfork:create                            <fork ppid=97 cpid=127 execname=manifest-import time=221 />
+  0 | exec_common:exec-success                <process pid=124 execname=egrep time=221 />
+  0 | proc_exit:exit                          <end pid=124 execname=egrep time=221 />
+  0 | proc_exit:exit                          <end pid=90 execname=nscd time=221 />
+  0 | exec_common:exec-success                <process pid=126 execname=ls time=221 />
+  0 | exec_common:exec-success                <process pid=127 execname=grep time=221 />
+  0 | proc_exit:exit                          <end pid=116 execname=rmtmpfiles time=221 />
+  0 | proc_exit:exit                          <end pid=125 execname=set_keyboard_lay time=222 />
+  0 | proc_exit:exit                          <end pid=126 execname=ls time=222 />
+  0 | cfork:create                            <fork ppid=60 cpid=128 execname=set_keyboard_lay time=222 />
+  0 | cfork:create                            <fork ppid=103 cpid=129 execname=ksh93 time=222 />
+  0 | exec_common:exec-success                <process pid=128 execname=grep time=222 />
+  0 | proc_exit:exit                          <end pid=128 execname=grep time=222 />
+  0 | proc_exit:exit                          <end pid=60 execname=set_keyboard_lay time=222 />
+  0 | cfork:create                            <fork ppid=59 cpid=130 execname=keymap time=222 />
+  0 | cfork:create                            <fork ppid=112 cpid=131 execname=syseventd time=222 />
+  0 | exec_common:exec-success                <process pid=131 execname=ksh93 time=222 />
+  0 | exec_common:exec-success                <process pid=130 execname=kbd time=222 />
+  0 | proc_exit:exit                          <end pid=109 execname=syseventd time=222 />
+  0 | proc_exit:exit                          <end pid=107 execname=svc-syseventd time=222 />
+  0 | exec_common:exec-success                <process pid=129 execname=mktemp time=222 />
+  0 | proc_exit:exit                          <end pid=129 execname=mktemp time=222 />
+  0 | cfork:create                            <fork ppid=123 cpid=132 execname=pmconfig time=223 />
+  0 | cfork:create                            <fork ppid=7 cpid=133 execname=svc.startd time=223 />
+  0 | exec_common:exec-success                <process pid=133 execname=ksh93 time=223 />
+  0 | exec_common:exec-success                <process pid=131 execname=rcm_daemon time=223 />
+  0 | proc_exit:exit                          <end pid=130 execname=kbd time=223 />
+  0 | cfork:create                            <fork ppid=131 cpid=134 execname=rcm_daemon time=223 />
+  0 | cfork:create                            <fork ppid=103 cpid=135 execname=ksh93 time=223 />
+  0 | exec_common:exec-success                <process pid=59 execname=loadkeys time=223 />
+  0 | exec_common:exec-success                <process pid=135 execname=cp time=224 />
+  0 | exec_common:exec-success                <process pid=133 execname=ipsecalgs time=224 />
+  0 | proc_exit:exit                          <end pid=59 execname=loadkeys time=224 />
+  0 | exec_common:exec-success                <process pid=132 execname=powerd time=224 />
+  0 | cfork:create                            <fork ppid=132 cpid=136 execname=powerd time=224 />
+  0 | cfork:create                            <fork ppid=7 cpid=137 execname=svc.startd time=224 />
+  0 | exec_common:exec-success                <process pid=137 execname=ksh93 time=224 />
+  0 | proc_exit:exit                          <end pid=132 execname=powerd time=224 />
+  0 | proc_exit:exit                          <end pid=123 execname=pmconfig time=224 />
+  0 | proc_exit:exit                          <end pid=113 execname=svc-power time=224 />
+  0 | exec_common:exec-success                <process pid=137 execname=picld time=225 />
+  0 | proc_exit:exit                          <end pid=133 execname=ipsecalgs time=225 />
+  0 | cfork:create                            <fork ppid=137 cpid=138 execname=picld time=225 />
+  0 | proc_exit:exit                          <end pid=135 execname=cp time=225 />
+  0 | cfork:create                            <fork ppid=7 cpid=139 execname=svc.startd time=225 />
+  0 | exec_common:exec-success                <process pid=139 execname=ksh93 time=225 />
+  0 | cfork:create                            <fork ppid=103 cpid=140 execname=ksh93 time=225 />
+  0 | exec_common:exec-success                <process pid=140 execname=cmp time=225 />
+  0 | exec_common:exec-success                <process pid=139 execname=npivconfig time=226 />
+  0 | proc_exit:exit                          <end pid=140 execname=cmp time=226 />
+  0 | cfork:create                            <fork ppid=103 cpid=141 execname=ksh93 time=226 />
+  0 | exec_common:exec-success                <process pid=141 execname=touch time=226 />
+  0 | proc_exit:exit                          <end pid=141 execname=touch time=226 />
+  0 | cfork:create                            <fork ppid=103 cpid=142 execname=ksh93 time=226 />
+  0 | exec_common:exec-success                <process pid=142 execname=rm time=226 />
+  0 | proc_exit:exit                          <end pid=142 execname=rm time=226 />
+  0 | cfork:create                            <fork ppid=103 cpid=143 execname=ksh93 time=226 />
+  0 | exec_common:exec-success                <process pid=143 execname=rm time=226 />
+  0 | proc_exit:exit                          <end pid=143 execname=rm time=226 />
+  0 | cfork:create                            <fork ppid=103 cpid=144 execname=ksh93 time=226 />
+  0 | exec_common:exec-success                <process pid=144 execname=mktemp time=226 />
+  0 | proc_exit:exit                          <end pid=144 execname=mktemp time=226 />
+  0 | cfork:create                            <fork ppid=103 cpid=145 execname=ksh93 time=226 />
+  0 | exec_common:exec-success                <process pid=139 execname=fcadm time=227 />
+  0 | exec_common:exec-success                <process pid=145 execname=find time=227 />
+  0 | proc_exit:exit                          <end pid=145 execname=find time=227 />
+  0 | cfork:create                            <fork ppid=103 cpid=146 execname=ksh93 time=227 />
+  0 | exec_common:exec-success                <process pid=146 execname=mktemp time=227 />
+  0 | proc_exit:exit                          <end pid=146 execname=mktemp time=227 />
+  0 | cfork:create                            <fork ppid=103 cpid=147 execname=ksh93 time=227 />
+  0 | exec_common:exec-success                <process pid=147 execname=rm time=227 />
+  0 | proc_exit:exit                          <end pid=147 execname=rm time=227 />
+  0 | cfork:create                            <fork ppid=103 cpid=148 execname=ksh93 time=227 />
+  0 | exec_common:exec-success                <process pid=148 execname=rm time=227 />
+  0 | proc_exit:exit                          <end pid=148 execname=rm time=227 />
+  0 | cfork:create                            <fork ppid=103 cpid=149 execname=ksh93 time=227 />
+  0 | exec_common:exec-success                <process pid=149 execname=rm time=227 />
+  0 | proc_exit:exit                          <end pid=149 execname=rm time=227 />
+  0 | cfork:create                            <fork ppid=103 cpid=150 execname=ksh93 time=227 />
+  0 | exec_common:exec-success                <process pid=150 execname=rm time=227 />
+  0 | proc_exit:exit                          <end pid=150 execname=rm time=227 />
+  0 | cfork:create                            <fork ppid=103 cpid=151 execname=ksh93 time=227 />
+  0 | exec_common:exec-success                <process pid=151 execname=rm time=227 />
+  0 | proc_exit:exit                          <end pid=151 execname=rm time=227 />
+  0 | cfork:create                            <fork ppid=103 cpid=152 execname=ksh93 time=227 />
+  0 | exec_common:exec-success                <process pid=152 execname=mktemp time=227 />
+  0 | proc_exit:exit                          <end pid=152 execname=mktemp time=227 />
+  0 | cfork:create                            <fork ppid=103 cpid=153 execname=ksh93 time=227 />
+  0 | exec_common:exec-success                <process pid=153 execname=cp time=227 />
+  0 | proc_exit:exit                          <end pid=153 execname=cp time=227 />
+  0 | cfork:create                            <fork ppid=103 cpid=154 execname=ksh93 time=227 />
+  0 | exec_common:exec-success                <process pid=154 execname=cmp time=227 />
+  0 | proc_exit:exit                          <end pid=131 execname=rcm_daemon time=228 />
+  0 | proc_exit:exit                          <end pid=137 execname=picld time=228 />
+  0 | proc_exit:exit                          <end pid=154 execname=cmp time=228 />
+  0 | cfork:create                            <fork ppid=103 cpid=155 execname=ksh93 time=228 />
+  0 | exec_common:exec-success                <process pid=155 execname=touch time=228 />
+  0 | proc_exit:exit                          <end pid=155 execname=touch time=228 />
+  0 | cfork:create                            <fork ppid=103 cpid=156 execname=ksh93 time=228 />
+  0 | exec_common:exec-success                <process pid=156 execname=rm time=228 />
+  0 | proc_exit:exit                          <end pid=156 execname=rm time=228 />
+  0 | cfork:create                            <fork ppid=103 cpid=157 execname=ksh93 time=228 />
+  0 | exec_common:exec-success                <process pid=157 execname=rm time=228 />
+  0 | proc_exit:exit                          <end pid=157 execname=rm time=228 />
+  0 | cfork:create                            <fork ppid=103 cpid=158 execname=ksh93 time=228 />
+  0 | exec_common:exec-success                <process pid=158 execname=ls time=228 />
+  0 | proc_exit:exit                          <end pid=139 execname=fcadm time=228 />
+  0 | proc_exit:exit                          <end pid=158 execname=ls time=228 />
+  0 | cfork:create                            <fork ppid=103 cpid=159 execname=ksh93 time=228 />
+  0 | exec_common:exec-success                <process pid=159 execname=ls time=228 />
+  0 | proc_exit:exit                          <end pid=159 execname=ls time=228 />
+  0 | cfork:create                            <fork ppid=103 cpid=160 execname=ksh93 time=229 />
+  0 | exec_common:exec-success                <process pid=160 execname=ls time=229 />
+  0 | proc_exit:exit                          <end pid=160 execname=ls time=229 />
+  0 | cfork:create                            <fork ppid=103 cpid=161 execname=ksh93 time=229 />
+  0 | exec_common:exec-success                <process pid=161 execname=mktemp time=229 />
+  0 | proc_exit:exit                          <end pid=161 execname=mktemp time=229 />
+  0 | cfork:create                            <fork ppid=103 cpid=162 execname=ksh93 time=229 />
+  0 | exec_common:exec-success                <process pid=162 execname=sort time=229 />
+  0 | exec_common:exec-success                <process pid=162 execname=sort time=229 />
+  0 | proc_exit:exit                          <end pid=162 execname=sort time=229 />
+  0 | cfork:create                            <fork ppid=103 cpid=163 execname=ksh93 time=229 />
+  0 | exec_common:exec-success                <process pid=163 execname=cmp time=229 />
+  0 | proc_exit:exit                          <end pid=163 execname=cmp time=229 />
+  0 | cfork:create                            <fork ppid=103 cpid=164 execname=ksh93 time=229 />
+  0 | exec_common:exec-success                <process pid=164 execname=touch time=229 />
+  0 | proc_exit:exit                          <end pid=164 execname=touch time=229 />
+  0 | cfork:create                            <fork ppid=103 cpid=165 execname=ksh93 time=229 />
+  0 | exec_common:exec-success                <process pid=165 execname=rm time=229 />
+  0 | proc_exit:exit                          <end pid=165 execname=rm time=229 />
+  0 | cfork:create                            <fork ppid=103 cpid=166 execname=ksh93 time=229 />
+  0 | exec_common:exec-success                <process pid=166 execname=rm time=229 />
+  0 | proc_exit:exit                          <end pid=166 execname=rm time=230 />
+  0 | proc_exit:exit                          <end pid=103 execname=ksh93 time=230 />
+  0 | proc_exit:exit                          <end pid=98 execname=ppd-cache-update time=230 />
+  0 | cfork:create                            <fork ppid=7 cpid=167 execname=svc.startd time=230 />
+  0 | exec_common:exec-success                <process pid=167 execname=ksh93 time=230 />
+  0 | exec_common:exec-success                <process pid=167 execname=fc-fabric time=230 />
+  0 | proc_exit:exit                          <end pid=167 execname=fc-fabric time=230 />
+  0 | cfork:create                            <fork ppid=7 cpid=168 execname=svc.startd time=231 />
+  0 | exec_common:exec-success                <process pid=168 execname=ksh93 time=231 />
+  0 | exec_common:exec-success                <process pid=168 execname=ipsecconf time=231 />
+  0 | proc_exit:exit                          <end pid=168 execname=ipsecconf time=232 />
+  0 | proc_exit:exit                          <end pid=101 execname=svcprop time=234 />
+  0 | proc_exit:exit                          <end pid=127 execname=grep time=234 />
+  0 | cfork:create                            <fork ppid=97 cpid=169 execname=manifest-import time=234 />
+  0 | exec_common:exec-success                <process pid=169 execname=svcprop time=234 />
+  0 | proc_exit:exit                          <end pid=169 execname=svcprop time=234 />
+  0 | cfork:create                            <fork ppid=7 cpid=170 execname=svc.startd time=234 />
+  0 | exec_common:exec-success                <process pid=170 execname=ksh93 time=234 />
+  0 | cfork:create                            <fork ppid=97 cpid=171 execname=manifest-import time=234 />
+  0 | exec_common:exec-success                <process pid=171 execname=find time=234 />
+  0 | proc_exit:exit                          <end pid=171 execname=find time=234 />
+  0 | cfork:create                            <fork ppid=97 cpid=172 execname=manifest-import time=234 />
+  0 | exec_common:exec-success                <process pid=170 execname=net-init time=235 />
+  0 | exec_common:exec-success                <process pid=172 execname=mfstscan time=235 />
+  0 | cfork:create                            <fork ppid=170 cpid=173 execname=net-init time=235 />
+  0 | exec_common:exec-success                <process pid=173 execname=zonename time=235 />
+  0 | proc_exit:exit                          <end pid=173 execname=zonename time=235 />
+  0 | cfork:create                            <fork ppid=170 cpid=174 execname=net-init time=235 />
+  0 | exec_common:exec-success                <process pid=174 execname=ipaddrsel time=235 />
+  0 | proc_exit:exit                          <end pid=174 execname=ipaddrsel time=235 />
+  0 | cfork:create                            <fork ppid=170 cpid=175 execname=net-init time=235 />
+  0 | exec_common:exec-success                <process pid=175 execname=pgrep time=236 />
+  0 | proc_exit:exit                          <end pid=175 execname=pgrep time=236 />
+  0 | cfork:create                            <fork ppid=170 cpid=176 execname=net-init time=236 />
+  0 | exec_common:exec-success                <process pid=176 execname=in.mpathd time=237 />
+  0 | cfork:create                            <fork ppid=176 cpid=177 execname=in.mpathd time=237 />
+  0 | cfork:create                            <fork ppid=177 cpid=178 execname=in.mpathd time=237 />
+  0 | proc_exit:exit                          <end pid=178 execname=in.mpathd time=237 />
+  0 | proc_exit:exit                          <end pid=176 execname=in.mpathd time=237 />
+  0 | cfork:create                            <fork ppid=170 cpid=179 execname=net-init time=237 />
+  0 | exec_common:exec-success                <process pid=179 execname=awk time=237 />
+  0 | proc_exit:exit                          <end pid=177 execname=in.mpathd time=237 />
+  0 | proc_exit:exit                          <end pid=179 execname=awk time=237 />
+  0 | cfork:create                            <fork ppid=170 cpid=180 execname=net-init time=237 />
+  0 | exec_common:exec-success                <process pid=180 execname=ndd time=237 />
+  0 | proc_exit:exit                          <end pid=180 execname=ndd time=237 />
+  0 | cfork:create                            <fork ppid=170 cpid=181 execname=net-init time=238 />
+  0 | exec_common:exec-success                <process pid=181 execname=ndd time=238 />
+  0 | proc_exit:exit                          <end pid=181 execname=ndd time=238 />
+  0 | cfork:create                            <fork ppid=170 cpid=182 execname=net-init time=238 />
+  0 | exec_common:exec-success                <process pid=182 execname=ls time=238 />
+  0 | proc_exit:exit                          <end pid=182 execname=ls time=238 />
+  0 | cfork:create                            <fork ppid=170 cpid=183 execname=net-init time=238 />
+  0 | exec_common:exec-success                <process pid=183 execname=grep time=238 />
+  0 | proc_exit:exit                          <end pid=183 execname=grep time=238 />
+  0 | cfork:create                            <fork ppid=170 cpid=184 execname=net-init time=238 />
+  0 | exec_common:exec-success                <process pid=184 execname=ls time=238 />
+  0 | proc_exit:exit                          <end pid=184 execname=ls time=238 />
+  0 | cfork:create                            <fork ppid=170 cpid=185 execname=net-init time=238 />
+  0 | exec_common:exec-success                <process pid=185 execname=grep time=238 />
+  0 | proc_exit:exit                          <end pid=185 execname=grep time=238 />
+  0 | proc_exit:exit                          <end pid=170 execname=net-init time=238 />
+  0 | cfork:create                            <fork ppid=7 cpid=186 execname=svc.startd time=239 />
+  0 | exec_common:exec-success                <process pid=186 execname=ksh93 time=239 />
+  0 | exec_common:exec-success                <process pid=186 execname=net-svc time=239 />
+  0 | cfork:create                            <fork ppid=186 cpid=187 execname=net-svc time=239 />
+  0 | exec_common:exec-success                <process pid=187 execname=zonename time=239 />
+  0 | proc_exit:exit                          <end pid=187 execname=zonename time=239 />
+  0 | cfork:create                            <fork ppid=186 cpid=188 execname=net-svc time=239 />
+  0 | exec_common:exec-success                <process pid=188 execname=uname time=239 />
+  0 | proc_exit:exit                          <end pid=188 execname=uname time=239 />
+  0 | cfork:create                            <fork ppid=186 cpid=189 execname=net-svc time=239 />
+  0 | exec_common:exec-success                <process pid=189 execname=domainname time=240 />
+  0 | proc_exit:exit                          <end pid=189 execname=domainname time=240 />
+  0 | cfork:create                            <fork ppid=186 cpid=190 execname=net-svc time=240 />
+  0 | exec_common:exec-success                <process pid=190 execname=ifconfig time=240 />
+  0 | proc_exit:exit                          <end pid=190 execname=ifconfig time=240 />
+  0 | cfork:create                            <fork ppid=186 cpid=191 execname=net-svc time=240 />
+  0 | exec_common:exec-success                <process pid=191 execname=svcprop time=240 />
+  0 | proc_exit:exit                          <end pid=191 execname=svcprop time=240 />
+  0 | cfork:create                            <fork ppid=186 cpid=192 execname=net-svc time=240 />
+  0 | exec_common:exec-success                <process pid=192 execname=svcprop time=240 />
+  0 | proc_exit:exit                          <end pid=192 execname=svcprop time=240 />
+  0 | cfork:create                            <fork ppid=186 cpid=193 execname=net-svc time=240 />
+  0 | exec_common:exec-success                <process pid=193 execname=netstrategy time=240 />
+  0 | proc_exit:exit                          <end pid=193 execname=netstrategy time=240 />
+  0 | cfork:create                            <fork ppid=186 cpid=194 execname=net-svc time=240 />
+  0 | exec_common:exec-success                <process pid=194 execname=grep time=240 />
+  0 | proc_exit:exit                          <end pid=194 execname=grep time=240 />
+  0 | cfork:create                            <fork ppid=186 cpid=195 execname=net-svc time=240 />
+  0 | exec_common:exec-success                <process pid=195 execname=grep time=240 />
+  0 | proc_exit:exit                          <end pid=195 execname=grep time=240 />
+  0 | proc_exit:exit                          <end pid=186 execname=net-svc time=240 />
+  0 | proc_exit:exit                          <end pid=172 execname=mfstscan time=242 />
+  0 | cfork:create                            <fork ppid=97 cpid=196 execname=manifest-import time=242 />
+  0 | exec_common:exec-success                <process pid=196 execname=mfstscan time=242 />
+  0 | proc_exit:exit                          <end pid=196 execname=mfstscan time=242 />
+  0 | cfork:create                            <fork ppid=97 cpid=197 execname=manifest-import time=242 />
+  0 | exec_common:exec-success                <process pid=197 execname=svccfg time=243 />
+  0 | proc_exit:exit                          <end pid=197 execname=svccfg time=243 />
+  0 | cfork:create                            <fork ppid=97 cpid=198 execname=manifest-import time=243 />
+  0 | exec_common:exec-success                <process pid=198 execname=svccfg time=243 />
+  0 | proc_exit:exit                          <end pid=198 execname=svccfg time=243 />
+  0 | proc_exit:exit                          <end pid=97 execname=manifest-import time=243 />
+  0 | cfork:create                            <fork ppid=7 cpid=199 execname=svc.startd time=244 />
+  0 | exec_common:exec-success                <process pid=199 execname=ksh93 time=244 />
+  0 | exec_common:exec-success                <process pid=199 execname=coreadm time=244 />
+  0 | cfork:create                            <fork ppid=7 cpid=200 execname=svc.startd time=245 />
+  0 | exec_common:exec-success                <process pid=200 execname=ksh93 time=245 />
+  0 | proc_exit:exit                          <end pid=199 execname=coreadm time=245 />
+  0 | exec_common:exec-success                <process pid=200 execname=net-routing-setu time=245 />
+  0 | cfork:create                            <fork ppid=200 cpid=201 execname=net-routing-setu time=245 />
+  0 | exec_common:exec-success                <process pid=201 execname=zonename time=245 />
+  0 | proc_exit:exit                          <end pid=201 execname=zonename time=245 />
+  0 | cfork:create                            <fork ppid=200 cpid=202 execname=net-routing-setu time=245 />
+  0 | cfork:create                            <fork ppid=7 cpid=203 execname=svc.startd time=245 />
+  0 | exec_common:exec-success                <process pid=203 execname=ksh93 time=245 />
+  0 | exec_common:exec-success                <process pid=202 execname=routeadm time=246 />
+  0 | exec_common:exec-success                <process pid=203 execname=rcS time=246 />
+  0 | cfork:create                            <fork ppid=203 cpid=204 execname=rcS time=246 />
+  0 | exec_common:exec-success                <process pid=204 execname=who time=246 />
+  0 | proc_exit:exit                          <end pid=204 execname=who time=246 />
+  0 | cfork:create                            <fork ppid=203 cpid=205 execname=rcS time=246 />
+  0 | exec_common:exec-success                <process pid=205 execname=uname time=246 />
+  0 | proc_exit:exit                          <end pid=205 execname=uname time=246 />
+  0 | cfork:create                            <fork ppid=203 cpid=206 execname=rcS time=246 />
+  0 | exec_common:exec-success                <process pid=206 execname=netstrategy time=246 />
+  0 | proc_exit:exit                          <end pid=206 execname=netstrategy time=246 />
+  0 | cfork:create                            <fork ppid=203 cpid=207 execname=rcS time=246 />
+  0 | exec_common:exec-success                <process pid=207 execname=svcprop time=246 />
+  0 | proc_exit:exit                          <end pid=207 execname=svcprop time=246 />
+  0 | proc_exit:exit                          <end pid=203 execname=rcS time=246 />
+  0 | cfork:create                            <fork ppid=7 cpid=208 execname=svc.startd time=247 />
+  0 | exec_common:exec-success                <process pid=208 execname=ksh93 time=247 />
+  0 | exec_common:exec-success                <process pid=208 execname=fs-local time=247 />
+  0 | cfork:create                            <fork ppid=208 cpid=209 execname=fs-local time=247 />
+  0 | exec_common:exec-success                <process pid=209 execname=mountall time=247 />
+  0 | cfork:create                            <fork ppid=209 cpid=210 execname=mountall time=247 />
+  0 | exec_common:exec-success                <process pid=210 execname=expr time=247 />
+  0 | proc_exit:exit                          <end pid=210 execname=expr time=247 />
+  0 | cfork:create                            <fork ppid=209 cpid=211 execname=mountall time=247 />
+  0 | exec_common:exec-success                <process pid=211 execname=grep time=247 />
+  0 | proc_exit:exit                          <end pid=211 execname=grep time=247 />
+  0 | cfork:create                            <fork ppid=209 cpid=212 execname=mountall time=247 />
+  0 | exec_common:exec-success                <process pid=212 execname=grep time=247 />
+  0 | proc_exit:exit                          <end pid=212 execname=grep time=248 />
+  0 | proc_exit:exit                          <end pid=209 execname=mountall time=248 />
+  0 | cfork:create                            <fork ppid=208 cpid=213 execname=fs-local time=248 />
+  0 | exec_common:exec-success                <process pid=213 execname=nawk time=248 />
+  0 | proc_exit:exit                          <end pid=213 execname=nawk time=248 />
+  0 | cfork:create                            <fork ppid=208 cpid=214 execname=fs-local time=248 />
+  0 | exec_common:exec-success                <process pid=214 execname=zfs time=248 />
+  0 | proc_exit:exit                          <end pid=214 execname=zfs time=248 />
+  0 | proc_exit:exit                          <end pid=208 execname=fs-local time=248 />
+  0 | cfork:create                            <fork ppid=7 cpid=215 execname=svc.startd time=252 />
+  0 | exec_common:exec-success                <process pid=215 execname=ksh93 time=252 />
+  0 | exec_common:exec-success                <process pid=215 execname=icon-cache time=253 />
+  0 | exec_common:exec-success                <process pid=215 execname=ksh93 time=253 />
+  0 | exec_common:exec-success                <process pid=215 execname=ksh93 time=253 />
+  0 | cfork:create                            <fork ppid=7 cpid=216 execname=svc.startd time=254 />
+  0 | exec_common:exec-success                <process pid=216 execname=ksh93 time=254 />
+  0 | cfork:create                            <fork ppid=7 cpid=217 execname=svc.startd time=254 />
+  0 | exec_common:exec-success                <process pid=217 execname=ksh93 time=254 />
+  0 | cfork:create                            <fork ppid=215 cpid=218 execname=ksh93 time=254 />
+  0 | exec_common:exec-success                <process pid=216 execname=mime-types-cache time=254 />
+  0 | exec_common:exec-success                <process pid=216 execname=ksh93 time=254 />
+  0 | exec_common:exec-success                <process pid=216 execname=ksh93 time=255 />
+  0 | exec_common:exec-success                <process pid=218 execname=find time=255 />
+  0 | cfork:create                            <fork ppid=7 cpid=219 execname=svc.startd time=255 />
+  0 | exec_common:exec-success                <process pid=219 execname=ksh93 time=255 />
+  0 | exec_common:exec-success                <process pid=217 execname=svc-dbus time=255 />
+  0 | cfork:create                            <fork ppid=216 cpid=220 execname=ksh93 time=255 />
+  0 | cfork:create                            <fork ppid=217 cpid=221 execname=svc-dbus time=255 />
+  0 | exec_common:exec-success                <process pid=220 execname=find time=255 />
+  0 | cfork:create                            <fork ppid=7 cpid=222 execname=svc.startd time=255 />
+  0 | cfork:create                            <fork ppid=7 cpid=223 execname=svc.startd time=256 />
+  0 | cfork:create                            <fork ppid=7 cpid=224 execname=svc.startd time=256 />
+  0 | cfork:create                            <fork ppid=7 cpid=225 execname=svc.startd time=256 />
+  0 | cfork:create                            <fork ppid=7 cpid=226 execname=svc.startd time=256 />
+  0 | cfork:create                            <fork ppid=7 cpid=227 execname=svc.startd time=256 />
+  0 | cfork:create                            <fork ppid=7 cpid=228 execname=svc.startd time=256 />
+  0 | cfork:create                            <fork ppid=7 cpid=229 execname=svc.startd time=257 />
+  0 | cfork:create                            <fork ppid=7 cpid=230 execname=svc.startd time=257 />
+  0 | exec_common:exec-success                <process pid=219 execname=input-method-cac time=257 />
+  0 | exec_common:exec-success                <process pid=230 execname=ksh93 time=257 />
+  0 | exec_common:exec-success                <process pid=229 execname=ksh93 time=257 />
+  0 | exec_common:exec-success                <process pid=228 execname=ksh93 time=257 />
+  0 | exec_common:exec-success                <process pid=221 execname=dbus-daemon time=257 />
+  0 | exec_common:exec-success                <process pid=227 execname=ksh93 time=257 />
+  0 | exec_common:exec-success                <process pid=226 execname=ksh93 time=257 />
+  0 | exec_common:exec-success                <process pid=225 execname=ksh93 time=257 />
+  0 | exec_common:exec-success                <process pid=224 execname=ksh93 time=257 />
+  0 | exec_common:exec-success                <process pid=222 execname=ksh93 time=258 />
+  0 | exec_common:exec-success                <process pid=229 execname=sharemgr time=258 />
+  0 | exec_common:exec-success                <process pid=226 execname=ogl-select time=258 />
+  0 | exec_common:exec-success                <process pid=226 execname=ksh93 time=258 />
+  0 | exec_common:exec-success                <process pid=226 execname=ksh93 time=258 />
+  0 | exec_common:exec-success                <process pid=223 execname=ksh93 time=258 />
+  0 | proc_exit:exit                          <end pid=220 execname=find time=258 />
+  0 | exec_common:exec-success                <process pid=219 execname=ksh93 time=258 />
+  0 | exec_common:exec-success                <process pid=219 execname=ksh93 time=258 />
+  0 | cfork:create                            <fork ppid=219 cpid=231 execname=ksh93 time=258 />
+  0 | exec_common:exec-success                <process pid=227 execname=sharemgr time=258 />
+  0 | proc_exit:exit                          <end pid=216 execname=ksh93 time=259 />
+  0 | exec_common:exec-success                <process pid=228 execname=xvm-vnc-config time=259 />
+  0 | cfork:create                            <fork ppid=228 cpid=232 execname=xvm-vnc-config time=259 />
+  0 | exec_common:exec-success                <process pid=230 execname=pkg-update time=259 />
+  0 | exec_common:exec-success                <process pid=230 execname=ksh93 time=259 />
+  0 | exec_common:exec-success                <process pid=230 execname=ksh93 time=260 />
+  0 | cfork:create                            <fork ppid=230 cpid=233 execname=ksh93 time=260 />
+  0 | cfork:create                            <fork ppid=7 cpid=234 execname=svc.startd time=260 />
+  0 | exec_common:exec-success                <process pid=234 execname=ksh93 time=260 />
+  0 | exec_common:exec-success                <process pid=232 execname=uname time=260 />
+  0 | proc_exit:exit                          <end pid=232 execname=uname time=260 />
+  0 | exec_common:exec-success                <process pid=225 execname=boot-archive-upd time=260 />
+  0 | exec_common:exec-success                <process pid=224 execname=desktop-mime-cac time=260 />
+  0 | exec_common:exec-success                <process pid=224 execname=ksh93 time=260 />
+  0 | exec_common:exec-success                <process pid=224 execname=ksh93 time=260 />
+  0 | cfork:create                            <fork ppid=225 cpid=235 execname=boot-archive-upd time=260 />
+  0 | exec_common:exec-success                <process pid=222 execname=zfs-auto-snapsho time=260 />
+  0 | exec_common:exec-success                <process pid=222 execname=ksh93 time=260 />
+  0 | exec_common:exec-success                <process pid=222 execname=ksh93 time=260 />
+  0 | cfork:create                            <fork ppid=222 cpid=236 execname=ksh93 time=261 />
+  0 | exec_common:exec-success                <process pid=223 execname=fc-cache time=261 />
+  0 | exec_common:exec-success                <process pid=223 execname=ksh93 time=261 />
+  0 | cfork:create                            <fork ppid=226 cpid=237 execname=ksh93 time=261 />
+  0 | exec_common:exec-success                <process pid=223 execname=ksh93 time=261 />
+  0 | cfork:create                            <fork ppid=223 cpid=238 execname=ksh93 time=261 />
+  0 | exec_common:exec-success                <process pid=235 execname=uname time=261 />
+  0 | proc_exit:exit                          <end pid=235 execname=uname time=261 />
+  0 | proc_exit:exit                          <end pid=218 execname=find time=261 />
+  0 | exec_common:exec-success                <process pid=237 execname=uname time=261 />
+  0 | proc_exit:exit                          <end pid=237 execname=uname time=261 />
+  0 | exec_common:exec-success                <process pid=238 execname=svcprop time=261 />
+  0 | proc_exit:exit                          <end pid=238 execname=svcprop time=261 />
+  0 | exec_common:exec-success                <process pid=236 execname=grep time=261 />
+  0 | cfork:create                            <fork ppid=228 cpid=239 execname=xvm-vnc-config time=261 />
+  0 | exec_common:exec-success                <process pid=231 execname=isainfo time=261 />
+  0 | proc_exit:exit                          <end pid=231 execname=isainfo time=261 />
+  0 | cfork:create                            <fork ppid=225 cpid=240 execname=boot-archive-upd time=261 />
+  0 | exec_common:exec-success                <process pid=233 execname=crontab time=261 />
+  0 | cfork:create                            <fork ppid=226 cpid=241 execname=ksh93 time=262 />
+  0 | cfork:create                            <fork ppid=223 cpid=242 execname=ksh93 time=262 />
+  0 | exec_common:exec-success                <process pid=234 execname=gconf-cache time=262 />
+  0 | exec_common:exec-success                <process pid=234 execname=ksh93 time=262 />
+  0 | exec_common:exec-success                <process pid=234 execname=ksh93 time=262 />
+  0 | proc_exit:exit                          <end pid=236 execname=grep time=262 />
+  0 | cfork:create                            <fork ppid=222 cpid=243 execname=ksh93 time=262 />
+  0 | exec_common:exec-success                <process pid=239 execname=uname time=262 />
+  0 | proc_exit:exit                          <end pid=239 execname=uname time=262 />
+  0 | exec_common:exec-success                <process pid=240 execname=bootadm time=262 />
+  0 | cfork:create                            <fork ppid=240 cpid=244 execname=bootadm time=262 />
+  0 | exec_common:exec-success                <process pid=242 execname=svcprop time=262 />
+  0 | exec_common:exec-success                <process pid=243 execname=grep time=262 />
+  0 | proc_exit:exit                          <end pid=243 execname=grep time=262 />
+  0 | proc_exit:exit                          <end pid=228 execname=xvm-vnc-config time=262 />
+  0 | cfork:create                            <fork ppid=215 cpid=245 execname=ksh93 time=262 />
+  0 | exec_common:exec-success                <process pid=244 execname=ksh93 time=262 />
+  0 | exec_common:exec-success                <process pid=244 execname=zfs time=262 />
+  0 | proc_exit:exit                          <end pid=242 execname=svcprop time=262 />
+  0 | cfork:create                            <fork ppid=223 cpid=246 execname=ksh93 time=262 />
+  0 | proc_exit:exit                          <end pid=222 execname=ksh93 time=262 />
+  0 | exec_common:exec-success                <process pid=245 execname=find time=262 />
+  0 | exec_common:exec-success                <process pid=241 execname=constype time=262 />
+  0 | proc_exit:exit                          <end pid=241 execname=constype time=262 />
+  0 | cfork:create                            <fork ppid=226 cpid=247 execname=ksh93 time=262 />
+  0 | exec_common:exec-success                <process pid=247 execname=touch time=262 />
+  0 | proc_exit:exit                          <end pid=247 execname=touch time=262 />
+  0 | cfork:create                            <fork ppid=226 cpid=248 execname=ksh93 time=262 />
+  0 | cfork:create                            <fork ppid=230 cpid=249 execname=ksh93 time=263 />
+  0 | exec_common:exec-success                <process pid=249 execname=grep time=263 />
+  0 | exec_common:exec-success                <process pid=246 execname=fc-cache time=263 />
+  0 | exec_common:exec-success                <process pid=248 execname=mesa_vendor_sele time=263 />
+  0 | exec_common:exec-success                <process pid=248 execname=ksh93 time=263 />
+  0 | exec_common:exec-success                <process pid=248 execname=ksh93 time=263 />
+  0 | cfork:create                            <fork ppid=224 cpid=250 execname=ksh93 time=263 />
+  0 | proc_exit:exit                          <end pid=244 execname=zfs time=263 />
+  0 | cfork:create                            <fork ppid=240 cpid=251 execname=bootadm time=263 />
+  0 | exec_common:exec-success                <process pid=251 execname=ksh93 time=263 />
+  0 | exec_common:exec-success                <process pid=251 execname=zfs time=264 />
+  0 | cfork:create                            <fork ppid=248 cpid=252 execname=ksh93 time=264 />
+  0 | exec_common:exec-success                <process pid=250 execname=find time=264 />
+  0 | proc_exit:exit                          <end pid=251 execname=zfs time=264 />
+  0 | cfork:create                            <fork ppid=240 cpid=253 execname=bootadm time=264 />
+  0 | exec_common:exec-success                <process pid=253 execname=ksh93 time=264 />
+  0 | exec_common:exec-success                <process pid=253 execname=zfs time=264 />
+  0 | proc_exit:exit                          <end pid=253 execname=zfs time=264 />
+  0 | exec_common:exec-success                <process pid=252 execname=uname time=264 />
+  0 | proc_exit:exit                          <end pid=252 execname=uname time=264 />
+  0 | cfork:create                            <fork ppid=219 cpid=254 execname=ksh93 time=265 />
+  0 | exec_common:exec-success                <process pid=254 execname=find time=265 />
+  0 | proc_exit:exit                          <end pid=254 execname=find time=265 />
+  0 | proc_exit:exit                          <end pid=219 execname=ksh93 time=265 />
+  0 | proc_exit:exit                          <end pid=248 execname=ksh93 time=265 />
+  0 | cfork:create                            <fork ppid=226 cpid=255 execname=ksh93 time=265 />
+  0 | proc_exit:exit                          <end pid=240 execname=bootadm time=265 />
+  0 | proc_exit:exit                          <end pid=225 execname=boot-archive-upd time=265 />
+  0 | exec_common:exec-success                <process pid=255 execname=nvidia_vendor_se time=266 />
+  0 | exec_common:exec-success                <process pid=255 execname=ksh93 time=266 />
+  0 | exec_common:exec-success                <process pid=255 execname=ksh93 time=266 />
+  0 | cfork:create                            <fork ppid=255 cpid=256 execname=ksh93 time=266 />
+  0 | exec_common:exec-success                <process pid=256 execname=uname time=266 />
+  0 | proc_exit:exit                          <end pid=256 execname=uname time=266 />
+  0 | proc_exit:exit                          <end pid=255 execname=ksh93 time=266 />
+  0 | cfork:create                            <fork ppid=226 cpid=257 execname=ksh93 time=266 />
+  0 | exec_common:exec-success                <process pid=257 execname=svcprop time=266 />
+  0 | cfork:create                            <fork ppid=221 cpid=258 execname=dbus-daemon time=267 />
+  0 | cfork:create                            <fork ppid=234 cpid=259 execname=ksh93 time=267 />
+  0 | cfork:create                            <fork ppid=7 cpid=260 execname=svc.startd time=267 />
+  0 | exec_common:exec-success                <process pid=260 execname=ksh93 time=267 />
+  0 | exec_common:exec-success                <process pid=259 execname=find time=267 />
+  0 | proc_exit:exit                          <end pid=257 execname=svcprop time=267 />
+  0 | cfork:create                            <fork ppid=226 cpid=261 execname=ksh93 time=267 />
+  0 | exec_common:exec-success                <process pid=261 execname=svcprop time=267 />
+  0 | proc_exit:exit                          <end pid=261 execname=svcprop time=267 />
+  0 | cfork:create                            <fork ppid=226 cpid=262 execname=ksh93 time=268 />
+  0 | proc_exit:exit                          <end pid=262 execname=ksh93 time=268 />
+  0 | cfork:create                            <fork ppid=226 cpid=263 execname=ksh93 time=268 />
+  0 | cfork:create                            <fork ppid=7 cpid=264 execname=svc.startd time=268 />
+  0 | exec_common:exec-success                <process pid=264 execname=ksh93 time=268 />
+  0 | cfork:create                            <fork ppid=7 cpid=265 execname=svc.startd time=268 />
+  0 | exec_common:exec-success                <process pid=265 execname=ksh93 time=268 />
+  0 | exec_common:exec-success                <process pid=260 execname=svc-dumpadm time=268 />
+  0 | cfork:create                            <fork ppid=7 cpid=266 execname=svc.startd time=269 />
+  0 | exec_common:exec-success                <process pid=266 execname=ksh93 time=269 />
+  0 | exec_common:exec-success                <process pid=263 execname=tr time=270 />
+  0 | proc_exit:exit                          <end pid=263 execname=tr time=270 />
+  0 | cfork:create                            <fork ppid=226 cpid=267 execname=ksh93 time=270 />
+  0 | exec_common:exec-success                <process pid=267 execname=mesa_vendor_sele time=270 />
+  0 | exec_common:exec-success                <process pid=267 execname=ksh93 time=270 />
+  0 | exec_common:exec-success                <process pid=267 execname=ksh93 time=270 />
+  0 | cfork:create                            <fork ppid=267 cpid=268 execname=ksh93 time=270 />
+  0 | cfork:create                            <fork ppid=7 cpid=269 execname=svc.startd time=270 />
+  0 | exec_common:exec-success                <process pid=269 execname=ksh93 time=270 />
+  0 | exec_common:exec-success                <process pid=268 execname=uname time=270 />
+  0 | proc_exit:exit                          <end pid=268 execname=uname time=270 />
+  0 | cfork:create                            <fork ppid=267 cpid=270 execname=ksh93 time=270 />
+  0 | exec_common:exec-success                <process pid=270 execname=chmod time=270 />
+  0 | proc_exit:exit                          <end pid=270 execname=chmod time=270 />
+  0 | exec_common:exec-success                <process pid=264 execname=pixbuf-loaders-i time=270 />
+  0 | exec_common:exec-success                <process pid=264 execname=ksh93 time=270 />
+  0 | exec_common:exec-success                <process pid=264 execname=ksh93 time=270 />
+  0 | exec_common:exec-success                <process pid=265 execname=svc-cron time=270 />
+  0 | cfork:create                            <fork ppid=264 cpid=271 execname=ksh93 time=270 />
+  0 | cfork:create                            <fork ppid=267 cpid=272 execname=ksh93 time=270 />
+  0 | cfork:create                            <fork ppid=260 cpid=273 execname=svc-dumpadm time=270 />
+  0 | cfork:create                            <fork ppid=265 cpid=274 execname=svc-cron time=271 />
+  0 | exec_common:exec-success                <process pid=271 execname=isainfo time=271 />
+  0 | proc_exit:exit                          <end pid=271 execname=isainfo time=271 />
+  0 | exec_common:exec-success                <process pid=272 execname=chmod time=271 />
+  0 | proc_exit:exit                          <end pid=272 execname=chmod time=271 />
+  0 | exec_common:exec-success                <process pid=273 execname=savecore time=271 />
+  0 | exec_common:exec-success                <process pid=274 execname=rm time=271 />
+  0 | proc_exit:exit                          <end pid=274 execname=rm time=271 />
+  0 | cfork:create                            <fork ppid=267 cpid=275 execname=ksh93 time=271 />
+  0 | cfork:create                            <fork ppid=265 cpid=276 execname=svc-cron time=271 />
+  0 | exec_common:exec-success                <process pid=275 execname=chmod time=271 />
+  0 | proc_exit:exit                          <end pid=275 execname=chmod time=271 />
+  0 | cfork:create                            <fork ppid=267 cpid=277 execname=ksh93 time=271 />
+  0 | exec_common:exec-success                <process pid=277 execname=chmod time=271 />
+  0 | proc_exit:exit                          <end pid=233 execname=crontab time=271 />
+  0 | proc_exit:exit                          <end pid=249 execname=grep time=271 />
+  0 | cfork:create                            <fork ppid=230 cpid=278 execname=ksh93 time=271 />
+  0 | exec_common:exec-success                <process pid=278 execname=crontab time=271 />
+  0 | proc_exit:exit                          <end pid=278 execname=crontab time=271 />
+  0 | cfork:create                            <fork ppid=230 cpid=279 execname=ksh93 time=271 />
+  0 | proc_exit:exit                          <end pid=277 execname=chmod time=271 />
+  0 | cfork:create                            <fork ppid=267 cpid=280 execname=ksh93 time=271 />
+  0 | exec_common:exec-success                <process pid=279 execname=rm time=271 />
+  0 | proc_exit:exit                          <end pid=279 execname=rm time=271 />
+  0 | proc_exit:exit                          <end pid=230 execname=ksh93 time=271 />
+  0 | exec_common:exec-success                <process pid=280 execname=chmod time=271 />
+  0 | proc_exit:exit                          <end pid=280 execname=chmod time=271 />
+  0 | cfork:create                            <fork ppid=267 cpid=281 execname=ksh93 time=271 />
+  0 | exec_common:exec-success                <process pid=281 execname=chmod time=271 />
+  0 | proc_exit:exit                          <end pid=281 execname=chmod time=271 />
+  0 | cfork:create                            <fork ppid=267 cpid=282 execname=ksh93 time=271 />
+  0 | exec_common:exec-success                <process pid=282 execname=ln time=271 />
+  0 | proc_exit:exit                          <end pid=282 execname=ln time=271 />
+  0 | cfork:create                            <fork ppid=267 cpid=283 execname=ksh93 time=271 />
+  0 | exec_common:exec-success                <process pid=266 execname=svc-ipagent time=271 />
+  0 | exec_common:exec-success                <process pid=266 execname=ksh93 time=271 />
+  0 | exec_common:exec-success                <process pid=266 execname=ksh93 time=271 />
+  0 | cfork:create                            <fork ppid=266 cpid=284 execname=ksh93 time=271 />
+  0 | exec_common:exec-success                <process pid=283 execname=ln time=271 />
+  0 | proc_exit:exit                          <end pid=283 execname=ln time=271 />
+  0 | exec_common:exec-success                <process pid=284 execname=uname time=271 />
+  0 | proc_exit:exit                          <end pid=284 execname=uname time=271 />
+  0 | cfork:create                            <fork ppid=266 cpid=285 execname=ksh93 time=271 />
+  0 | cfork:create                            <fork ppid=267 cpid=286 execname=ksh93 time=271 />
+  0 | exec_common:exec-success                <process pid=285 execname=uname time=271 />
+  0 | proc_exit:exit                          <end pid=285 execname=uname time=271 />
+  0 | cfork:create                            <fork ppid=266 cpid=287 execname=ksh93 time=271 />
+  0 | exec_common:exec-success                <process pid=286 execname=ln time=271 />
+  0 | proc_exit:exit                          <end pid=286 execname=ln time=271 />
+  0 | cfork:create                            <fork ppid=267 cpid=288 execname=ksh93 time=271 />
+  0 | exec_common:exec-success                <process pid=288 execname=ln time=271 />
+  0 | proc_exit:exit                          <end pid=288 execname=ln time=272 />
+  0 | cfork:create                            <fork ppid=267 cpid=289 execname=ksh93 time=272 />
+  0 | exec_common:exec-success                <process pid=289 execname=ln time=272 />
+  0 | proc_exit:exit                          <end pid=289 execname=ln time=272 />
+  0 | cfork:create                            <fork ppid=267 cpid=290 execname=ksh93 time=272 />
+  0 | exec_common:exec-success                <process pid=290 execname=ln time=272 />
+  0 | proc_exit:exit                          <end pid=290 execname=ln time=272 />
+  0 | cfork:create                            <fork ppid=267 cpid=291 execname=ksh93 time=272 />
+  0 | exec_common:exec-success                <process pid=291 execname=ln time=272 />
+  0 | proc_exit:exit                          <end pid=291 execname=ln time=272 />
+  0 | cfork:create                            <fork ppid=267 cpid=292 execname=ksh93 time=272 />
+  0 | exec_common:exec-success                <process pid=292 execname=ln time=272 />
+  0 | proc_exit:exit                          <end pid=292 execname=ln time=272 />
+  0 | proc_exit:exit                          <end pid=267 execname=ksh93 time=272 />
+  0 | proc_exit:exit                          <end pid=226 execname=ksh93 time=272 />
+  0 | proc_exit:exit                          <end pid=221 execname=dbus-daemon time=272 />
+  0 | proc_exit:exit                          <end pid=217 execname=svc-dbus time=272 />
+  0 | proc_exit:exit                          <end pid=265 execname=svc-cron time=272 />
+  0 | proc_exit:exit                          <end pid=259 execname=find time=272 />
+  0 | cfork:create                            <fork ppid=234 cpid=293 execname=ksh93 time=272 />
+  0 | exec_common:exec-success                <process pid=293 execname=find time=272 />
+  0 | proc_exit:exit                          <end pid=293 execname=find time=272 />
+  0 | proc_exit:exit                          <end pid=234 execname=ksh93 time=272 />
+  0 | exec_common:exec-success                <process pid=269 execname=sysidtool-net time=272 />
+  0 | cfork:create                            <fork ppid=7 cpid=294 execname=svc.startd time=273 />
+  0 | exec_common:exec-success                <process pid=273 execname=savecore time=273 />
+  0 | exec_common:exec-success                <process pid=276 execname=cron time=273 />
+  0 | cfork:create                            <fork ppid=276 cpid=295 execname=cron time=273 />
+  0 | proc_exit:exit                          <end pid=276 execname=cron time=273 />
+  0 | cfork:create                            <fork ppid=264 cpid=296 execname=ksh93 time=273 />
+  0 | exec_common:exec-success                <process pid=296 execname=find time=273 />
+  0 | proc_exit:exit                          <end pid=296 execname=find time=273 />
+  0 | proc_exit:exit                          <end pid=264 execname=ksh93 time=273 />
+  0 | exec_common:exec-success                <process pid=287 execname=svcadm time=273 />
+  0 | proc_exit:exit                          <end pid=269 execname=sysidtool-net time=273 />
+  0 | exec_common:exec-success                <process pid=294 execname=ksh93 time=274 />
+  0 | exec_common:exec-success                <process pid=294 execname=svc-stosreg time=274 />
+  0 | proc_exit:exit                          <end pid=273 execname=savecore time=275 />
+  0 | cfork:create                            <fork ppid=260 cpid=297 execname=svc-dumpadm time=275 />
+  0 | cfork:create                            <fork ppid=294 cpid=298 execname=svc-stosreg time=275 />
+  0 | cfork:create                            <fork ppid=260 cpid=299 execname=svc-dumpadm time=275 />
+  0 | exec_common:exec-success                <process pid=297 execname=dumpadm time=275 />
+  0 | proc_exit:exit                          <end pid=297 execname=dumpadm time=275 />
+  0 | exec_common:exec-success                <process pid=299 execname=grep time=276 />
+  0 | proc_exit:exit                          <end pid=299 execname=grep time=276 />
+  0 | cfork:create                            <fork ppid=260 cpid=300 execname=svc-dumpadm time=276 />
+  0 | exec_common:exec-success                <process pid=300 execname=dumpadm time=276 />
+  0 | exec_common:exec-success                <process pid=298 execname=stclient time=277 />
+  0 | proc_exit:exit                          <end pid=287 execname=svcadm time=278 />
+  0 | proc_exit:exit                          <end pid=266 execname=ksh93 time=278 />
+  0 | proc_exit:exit                          <end pid=227 execname=sharemgr time=278 />
+  0 | proc_exit:exit                          <end pid=229 execname=sharemgr time=278 />
+  0 | proc_exit:exit                          <end pid=250 execname=find time=278 />
+  0 | proc_exit:exit                          <end pid=224 execname=ksh93 time=278 />
+  0 | cfork:create                            <fork ppid=7 cpid=301 execname=svc.startd time=279 />
+  0 | exec_common:exec-success                <process pid=301 execname=ksh93 time=279 />
+  0 | proc_exit:exit                          <end pid=300 execname=dumpadm time=280 />
+  0 | cfork:create                            <fork ppid=260 cpid=302 execname=svc-dumpadm time=280 />
+  0 | exec_common:exec-success                <process pid=302 execname=swap time=280 />
+  0 | exec_common:exec-success                <process pid=302 execname=swap time=280 />
+  0 | proc_exit:exit                          <end pid=302 execname=swap time=280 />
+  0 | exec_common:exec-success                <process pid=301 execname=svc-hal time=280 />
+  0 | cfork:create                            <fork ppid=301 cpid=303 execname=svc-hal time=280 />
+  0 | proc_exit:exit                          <end pid=245 execname=find time=280 />
+  0 | exec_common:exec-success                <process pid=303 execname=mkdir time=280 />
+  0 | proc_exit:exit                          <end pid=303 execname=mkdir time=280 />
+  0 | cfork:create                            <fork ppid=301 cpid=304 execname=svc-hal time=281 />
+  0 | cfork:create                            <fork ppid=215 cpid=305 execname=ksh93 time=281 />
+  0 | proc_exit:exit                          <end pid=298 execname=stclient time=281 />
+  0 | exec_common:exec-success                <process pid=305 execname=find time=281 />
+  0 | proc_exit:exit                          <end pid=294 execname=svc-stosreg time=281 />
+  0 | cfork:create                            <fork ppid=260 cpid=306 execname=svc-dumpadm time=282 />
+  0 | exec_common:exec-success                <process pid=306 execname=grep time=282 />
+  0 | proc_exit:exit                          <end pid=306 execname=grep time=282 />
+  0 | cfork:create                            <fork ppid=260 cpid=307 execname=svc-dumpadm time=282 />
+  0 | exec_common:exec-success                <process pid=304 execname=hald time=282 />
+  0 | proc_exit:exit                          <end pid=307 execname=svc-dumpadm time=282 />
+  0 | cfork:create                            <fork ppid=7 cpid=308 execname=svc.startd time=283 />
+  0 | proc_exit:exit                          <end pid=305 execname=find time=283 />
+  0 | exec_common:exec-success                <process pid=308 execname=ksh93 time=283 />
+  0 | exec_common:exec-success                <process pid=308 execname=svc-ipagent time=283 />
+  0 | cfork:create                            <fork ppid=215 cpid=309 execname=ksh93 time=284 />
+  0 | exec_common:exec-success                <process pid=309 execname=find time=284 />
+  0 | exec_common:exec-success                <process pid=308 execname=ksh93 time=284 />
+  0 | exec_common:exec-success                <process pid=308 execname=ksh93 time=284 />
+  0 | cfork:create                            <fork ppid=308 cpid=310 execname=ksh93 time=284 />
+  0 | exec_common:exec-success                <process pid=310 execname=uname time=284 />
+  0 | proc_exit:exit                          <end pid=310 execname=uname time=284 />
+  0 | cfork:create                            <fork ppid=308 cpid=311 execname=ksh93 time=284 />
+  0 | exec_common:exec-success                <process pid=311 execname=uname time=284 />
+  0 | proc_exit:exit                          <end pid=311 execname=uname time=284 />
+  0 | cfork:create                            <fork ppid=308 cpid=312 execname=ksh93 time=284 />
+  0 | exec_common:exec-success                <process pid=312 execname=svcadm time=284 />
+  0 | proc_exit:exit                          <end pid=312 execname=svcadm time=284 />
+  0 | proc_exit:exit                          <end pid=308 execname=ksh93 time=284 />
+  0 | proc_exit:exit                          <end pid=260 execname=svc-dumpadm time=284 />
+  0 | cfork:create                            <fork ppid=304 cpid=313 execname=hald time=285 />
+  0 | proc_exit:exit                          <end pid=309 execname=find time=285 />
+  0 | cfork:create                            <fork ppid=313 cpid=314 execname=hald time=286 />
+  0 | cfork:create                            <fork ppid=215 cpid=315 execname=ksh93 time=286 />
+  0 | exec_common:exec-success                <process pid=315 execname=find time=286 />
+  0 | exec_common:exec-success                <process pid=314 execname=hald-runner time=286 />
+  0 | proc_exit:exit                          <end pid=315 execname=find time=286 />
+  0 | cfork:create                            <fork ppid=215 cpid=316 execname=ksh93 time=287 />
+  0 | exec_common:exec-success                <process pid=316 execname=find time=287 />
+  0 | proc_exit:exit                          <end pid=316 execname=find time=289 />
+  0 | cfork:create                            <fork ppid=215 cpid=317 execname=ksh93 time=290 />
+  0 | exec_common:exec-success                <process pid=317 execname=find time=290 />
+  0 | proc_exit:exit                          <end pid=317 execname=find time=290 />
+  0 | cfork:create                            <fork ppid=215 cpid=318 execname=ksh93 time=290 />
+  0 | exec_common:exec-success                <process pid=318 execname=find time=290 />
+  0 | proc_exit:exit                          <end pid=318 execname=find time=291 />
+  0 | cfork:create                            <fork ppid=215 cpid=319 execname=ksh93 time=291 />
+  0 | exec_common:exec-success                <process pid=319 execname=find time=291 />
+  0 | proc_exit:exit                          <end pid=319 execname=find time=292 />
+  0 | cfork:create                            <fork ppid=215 cpid=320 execname=ksh93 time=292 />
+  0 | exec_common:exec-success                <process pid=320 execname=find time=292 />
+  0 | proc_exit:exit                          <end pid=202 execname=routeadm time=296 />
+  0 | cfork:create                            <fork ppid=200 cpid=321 execname=net-routing-setu time=296 />
+  0 | exec_common:exec-success                <process pid=321 execname=routeadm time=296 />
+  0 | cfork:create                            <fork ppid=200 cpid=322 execname=net-routing-setu time=297 />
+  0 | exec_common:exec-success                <process pid=322 execname=nawk time=297 />
+  0 | cfork:create                            <fork ppid=200 cpid=323 execname=net-routing-setu time=298 />
+  0 | exec_common:exec-success                <process pid=323 execname=grep time=298 />
+  0 | cfork:create                            <fork ppid=314 cpid=324 execname=hald-runner time=300 />
+  0 | exec_common:exec-success                <process pid=324 execname=hald-addon-netwo time=300 />
+  0 | cfork:create                            <fork ppid=314 cpid=325 execname=hald-runner time=301 />
+  0 | exec_common:exec-success                <process pid=325 execname=hal-storage-clea time=301 />
+  0 | proc_exit:exit                          <end pid=325 execname=hal-storage-clea time=301 />
+  0 | cfork:create                            <fork ppid=314 cpid=326 execname=hald-runner time=301 />
+  0 | exec_common:exec-success                <process pid=326 execname=hald-addon-cpufr time=301 />
+  0 | cfork:create                            <fork ppid=314 cpid=327 execname=hald-runner time=303 />
+  0 | proc_exit:exit                          <end pid=321 execname=routeadm time=304 />
+  0 | proc_exit:exit                          <end pid=322 execname=nawk time=304 />
+  0 | proc_exit:exit                          <end pid=323 execname=grep time=304 />
+  0 | cfork:create                            <fork ppid=200 cpid=328 execname=net-routing-setu time=304 />
+  0 | exec_common:exec-success                <process pid=328 execname=netstrategy time=304 />
+  0 | proc_exit:exit                          <end pid=328 execname=netstrategy time=304 />
+  0 | cfork:create                            <fork ppid=200 cpid=329 execname=net-routing-setu time=304 />
+  0 | exec_common:exec-success                <process pid=329 execname=grep time=304 />
+  0 | proc_exit:exit                          <end pid=329 execname=grep time=304 />
+  0 | cfork:create                            <fork ppid=200 cpid=330 execname=net-routing-setu time=304 />
+  0 | exec_common:exec-success                <process pid=330 execname=awk time=304 />
+  0 | proc_exit:exit                          <end pid=330 execname=awk time=304 />
+  0 | cfork:create                            <fork ppid=200 cpid=331 execname=net-routing-setu time=304 />
+  0 | cfork:create                            <fork ppid=200 cpid=332 execname=net-routing-setu time=304 />
+  0 | exec_common:exec-success                <process pid=332 execname=grep time=304 />
+  0 | exec_common:exec-success                <process pid=327 execname=hald-probe-stora time=304 />
+  0 | exec_common:exec-success                <process pid=331 execname=netstat time=304 />
+  0 | proc_exit:exit                          <end pid=331 execname=netstat time=304 />
+  0 | proc_exit:exit                          <end pid=332 execname=grep time=304 />
+  0 | cfork:create                            <fork ppid=200 cpid=333 execname=net-routing-setu time=304 />
+  0 | exec_common:exec-success                <process pid=333 execname=route time=304 />
+  0 | proc_exit:exit                          <end pid=333 execname=route time=304 />
+  0 | cfork:create                            <fork ppid=200 cpid=334 execname=net-routing-setu time=305 />
+  0 | exec_common:exec-success                <process pid=334 execname=svcprop time=305 />
+  0 | proc_exit:exit                          <end pid=334 execname=svcprop time=305 />
+  0 | cfork:create                            <fork ppid=200 cpid=335 execname=net-routing-setu time=305 />
+  0 | exec_common:exec-success                <process pid=335 execname=svccfg time=305 />
+  0 | proc_exit:exit                          <end pid=327 execname=hald-probe-stora time=305 />
+  0 | cfork:create                            <fork ppid=314 cpid=336 execname=hald-runner time=305 />
+  0 | exec_common:exec-success                <process pid=336 execname=hald-probe-volum time=305 />
+  0 | proc_exit:exit                          <end pid=320 execname=find time=306 />
+  0 | proc_exit:exit                          <end pid=335 execname=svccfg time=306 />
+  0 | cfork:create                            <fork ppid=200 cpid=337 execname=net-routing-setu time=306 />
+  0 | exec_common:exec-success                <process pid=337 execname=routeadm time=306 />
+  0 | cfork:create                            <fork ppid=215 cpid=338 execname=ksh93 time=306 />
+  0 | exec_common:exec-success                <process pid=338 execname=find time=306 />
+  0 | proc_exit:exit                          <end pid=246 execname=fc-cache time=314 />
+  0 | proc_exit:exit                          <end pid=223 execname=ksh93 time=314 />
+  0 | proc_exit:exit                          <end pid=338 execname=find time=333 />
+  0 | cfork:create                            <fork ppid=215 cpid=339 execname=ksh93 time=336 />
+  0 | exec_common:exec-success                <process pid=339 execname=find time=336 />
+  0 | proc_exit:exit                          <end pid=339 execname=find time=348 />
+  0 | cfork:create                            <fork ppid=215 cpid=340 execname=ksh93 time=349 />
+  0 | exec_common:exec-success                <process pid=340 execname=find time=349 />
+  0 | proc_exit:exit                          <end pid=337 execname=routeadm time=357 />
+  0 | cfork:create                            <fork ppid=200 cpid=341 execname=net-routing-setu time=357 />
+  0 | proc_exit:exit                          <end pid=341 execname=net-routing-setu time=357 />
+  0 | cfork:create                            <fork ppid=200 cpid=342 execname=net-routing-setu time=358 />
+  0 | exec_common:exec-success                <process pid=342 execname=tr time=358 />
+  0 | proc_exit:exit                          <end pid=342 execname=tr time=358 />
+  0 | proc_exit:exit                          <end pid=200 execname=net-routing-setu time=358 />
+  0 | proc_exit:exit                          <end pid=340 execname=find time=358 />
+  0 | proc_exit:exit                          <end pid=215 execname=ksh93 time=359 />
+  0 | cfork:create                            <fork ppid=7 cpid=343 execname=svc.startd time=359 />
+  0 | exec_common:exec-success                <process pid=343 execname=ksh93 time=359 />
+  0 | exec_common:exec-success                <process pid=343 execname=rpc-bind time=360 />
+  0 | cfork:create                            <fork ppid=343 cpid=344 execname=rpc-bind time=360 />
+  0 | exec_common:exec-success                <process pid=344 execname=mkdir time=360 />
+  0 | proc_exit:exit                          <end pid=344 execname=mkdir time=360 />
+  0 | cfork:create                            <fork ppid=343 cpid=345 execname=rpc-bind time=360 />
+  0 | exec_common:exec-success                <process pid=345 execname=rpcbind time=360 />
+  0 | cfork:create                            <fork ppid=345 cpid=346 execname=rpcbind time=360 />
+  0 | cfork:create                            <fork ppid=7 cpid=347 execname=svc.startd time=360 />
+  0 | exec_common:exec-success                <process pid=347 execname=ksh93 time=361 />
+  0 | exec_common:exec-success                <process pid=347 execname=svc-ndp time=361 />
+  0 | cfork:create                            <fork ppid=347 cpid=348 execname=svc-ndp time=361 />
+  0 | exec_common:exec-success                <process pid=348 execname=zonename time=361 />
+  0 | proc_exit:exit                          <end pid=348 execname=zonename time=361 />
+  0 | cfork:create                            <fork ppid=347 cpid=349 execname=svc-ndp time=361 />
+  0 | exec_common:exec-success                <process pid=349 execname=svccfg time=361 />
+  0 | proc_exit:exit                          <end pid=345 execname=rpcbind time=361 />
+  0 | proc_exit:exit                          <end pid=343 execname=rpc-bind time=361 />
+  0 | cfork:create                            <fork ppid=7 cpid=350 execname=svc.startd time=362 />
+  0 | exec_common:exec-success                <process pid=350 execname=ksh93 time=362 />
+  0 | cfork:create                            <fork ppid=347 cpid=351 execname=svc-ndp time=362 />
+  0 | proc_exit:exit                          <end pid=349 execname=svccfg time=362 />
+  0 | exec_common:exec-success                <process pid=351 execname=nawk time=362 />
+  0 | proc_exit:exit                          <end pid=351 execname=nawk time=362 />
+  0 | exec_common:exec-success                <process pid=350 execname=sysidtool-system time=362 />
+  0 | proc_exit:exit                          <end pid=350 execname=sysidtool-system time=362 />
+  0 | cfork:create                            <fork ppid=7 cpid=352 execname=svc.startd time=363 />
+  0 | exec_common:exec-success                <process pid=352 execname=ksh93 time=363 />
+  0 | cfork:create                            <fork ppid=347 cpid=353 execname=svc-ndp time=363 />
+  0 | exec_common:exec-success                <process pid=353 execname=nawk time=363 />
+  0 | proc_exit:exit                          <end pid=353 execname=nawk time=363 />
+  0 | cfork:create                            <fork ppid=347 cpid=354 execname=svc-ndp time=363 />
+  0 | exec_common:exec-success                <process pid=354 execname=routeadm time=363 />
+  0 | exec_common:exec-success                <process pid=352 execname=fmd time=363 />
+  0 | proc_exit:exit                          <end pid=354 execname=routeadm time=363 />
+  0 | cfork:create                            <fork ppid=352 cpid=355 execname=fmd time=364 />
+  0 | cfork:create                            <fork ppid=7 cpid=356 execname=svc.startd time=364 />
+  0 | exec_common:exec-success                <process pid=356 execname=ksh93 time=364 />
+  0 | exec_common:exec-success                <process pid=356 execname=postrun-runq time=365 />
+  0 | exec_common:exec-success                <process pid=356 execname=ksh93 time=365 />
+  0 | exec_common:exec-success                <process pid=356 execname=ksh93 time=365 />
+  0 | cfork:create                            <fork ppid=356 cpid=357 execname=ksh93 time=365 />
+  0 | exec_common:exec-success                <process pid=357 execname=dirname time=365 />
+  0 | proc_exit:exit                          <end pid=357 execname=dirname time=365 />
+  0 | exec_common:exec-success                <process pid=356 execname=postrun time=366 />
+  0 | exec_common:exec-success                <process pid=356 execname=ksh93 time=366 />
+  0 | exec_common:exec-success                <process pid=356 execname=ksh93 time=366 />
+  0 | cfork:create                            <fork ppid=7 cpid=358 execname=svc.startd time=366 />
+  0 | exec_common:exec-success                <process pid=358 execname=ksh93 time=366 />
+  0 | exec_common:exec-success                <process pid=358 execname=svc-utmpd time=367 />
+  0 | cfork:create                            <fork ppid=358 cpid=359 execname=svc-utmpd time=367 />
+  0 | exec_common:exec-success                <process pid=359 execname=rm time=367 />
+  0 | proc_exit:exit                          <end pid=359 execname=rm time=367 />
+  0 | cfork:create                            <fork ppid=358 cpid=360 execname=svc-utmpd time=367 />
+  0 | exec_common:exec-success                <process pid=360 execname=utmpd time=367 />
+  0 | cfork:create                            <fork ppid=360 cpid=361 execname=utmpd time=367 />
+  0 | cfork:create                            <fork ppid=356 cpid=362 execname=ksh93 time=367 />
+  0 | cfork:create                            <fork ppid=7 cpid=363 execname=svc.startd time=367 />
+  0 | exec_common:exec-success                <process pid=363 execname=ksh93 time=367 />
+  0 | exec_common:exec-success                <process pid=363 execname=system-log time=368 />
+  0 | cfork:create                            <fork ppid=363 cpid=364 execname=system-log time=368 />
+  0 | exec_common:exec-success                <process pid=364 execname=savecore time=368 />
+  0 | exec_common:exec-success                <process pid=364 execname=savecore time=368 />
+  0 | proc_exit:exit                          <end pid=358 execname=svc-utmpd time=368 />
+  0 | proc_exit:exit                          <end pid=360 execname=utmpd time=368 />
+  0 | exec_common:exec-success                <process pid=362 execname=dirname time=368 />
+  0 | proc_exit:exit                          <end pid=362 execname=dirname time=368 />
+  0 | cfork:create                            <fork ppid=7 cpid=365 execname=svc.startd time=368 />
+  0 | exec_common:exec-success                <process pid=365 execname=ksh93 time=368 />
+  0 | cfork:create                            <fork ppid=356 cpid=366 execname=ksh93 time=368 />
+  0 | cfork:create                            <fork ppid=7 cpid=367 execname=svc.startd time=368 />
+  0 | exec_common:exec-success                <process pid=367 execname=ksh93 time=368 />
+  0 | exec_common:exec-success                <process pid=365 execname=sac time=369 />
+  0 | proc_exit:exit                          <end pid=364 execname=savecore time=369 />
+  0 | exec_common:exec-success                <process pid=367 execname=inetd time=369 />
+  0 | cfork:create                            <fork ppid=363 cpid=368 execname=system-log time=369 />
+  0 | exec_common:exec-success                <process pid=368 execname=savecore time=369 />
+  0 | exec_common:exec-success                <process pid=368 execname=savecore time=369 />
+  0 | cfork:create                            <fork ppid=367 cpid=369 execname=inetd time=369 />
+  0 | proc_exit:exit                          <end pid=368 execname=savecore time=370 />
+  0 | cfork:create                            <fork ppid=363 cpid=370 execname=system-log time=370 />
+  0 | exec_common:exec-success                <process pid=370 execname=awk time=370 />
+  0 | proc_exit:exit                          <end pid=370 execname=awk time=370 />
+  0 | cfork:create                            <fork ppid=363 cpid=371 execname=system-log time=370 />
+  0 | proc_exit:exit                          <end pid=363 execname=system-log time=370 />
+  0 | cfork:create                            <fork ppid=347 cpid=372 execname=svc-ndp time=370 />
+  0 | cfork:create                            <fork ppid=356 cpid=373 execname=ksh93 time=370 />
+  0 | cfork:create                            <fork ppid=365 cpid=374 execname=sac time=370 />
+  0 | exec_common:exec-success                <process pid=371 execname=syslogd time=370 />
+  0 | cfork:create                            <fork ppid=371 cpid=375 execname=syslogd time=371 />
+  0 | exec_common:exec-success                <process pid=374 execname=ttymon time=371 />
+  0 | proc_exit:exit                          <end pid=371 execname=syslogd time=371 />
+  0 | proc_exit:exit                          <end pid=367 execname=inetd time=371 />
+  0 | exec_common:exec-success                <process pid=366 execname=id time=372 />
+  0 | proc_exit:exit                          <end pid=366 execname=id time=372 />
+  0 | exec_common:exec-success                <process pid=373 execname=grep time=372 />
+  0 | proc_exit:exit                          <end pid=373 execname=grep time=372 />
+  0 | exec_common:exec-success                <process pid=372 execname=nawk time=372 />
+  0 | proc_exit:exit                          <end pid=372 execname=nawk time=372 />
+  0 | cfork:create                            <fork ppid=356 cpid=376 execname=ksh93 time=372 />
+  0 | cfork:create                            <fork ppid=347 cpid=377 execname=svc-ndp time=372 />
+  0 | exec_common:exec-success                <process pid=376 execname=id time=372 />
+  0 | proc_exit:exit                          <end pid=376 execname=id time=372 />
+  0 | exec_common:exec-success                <process pid=377 execname=routeadm time=372 />
+  0 | proc_exit:exit                          <end pid=377 execname=routeadm time=372 />
+  0 | cfork:create                            <fork ppid=7 cpid=378 execname=svc.startd time=372 />
+  0 | exec_common:exec-success                <process pid=378 execname=ksh93 time=373 />
+  0 | cfork:create                            <fork ppid=375 cpid=379 execname=syslogd time=373 />
+  0 | exec_common:exec-success                <process pid=379 execname=m4 time=373 />
+  0 | cfork:create                            <fork ppid=7 cpid=380 execname=svc.startd time=373 />
+  0 | proc_exit:exit                          <end pid=379 execname=m4 time=373 />
+  0 | exec_common:exec-success                <process pid=380 execname=ksh93 time=374 />
+  0 | cfork:create                            <fork ppid=356 cpid=381 execname=ksh93 time=374 />
+  0 | cfork:create                            <fork ppid=347 cpid=382 execname=svc-ndp time=374 />
+  0 | exec_common:exec-success                <process pid=381 execname=sed time=374 />
+  0 | proc_exit:exit                          <end pid=381 execname=sed time=374 />
+  0 | exec_common:exec-success                <process pid=380 execname=console-login time=374 />
+  0 | exec_common:exec-success                <process pid=378 execname=mdnsd time=374 />
+  0 | cfork:create                            <fork ppid=378 cpid=383 execname=mdnsd time=374 />
+  0 | cfork:create                            <fork ppid=380 cpid=384 execname=console-login time=374 />
+  0 | cfork:create                            <fork ppid=383 cpid=385 execname=mdnsd time=374 />
+  0 | exec_common:exec-success                <process pid=384 execname=svcprop time=374 />
+  0 | proc_exit:exit                          <end pid=384 execname=svcprop time=374 />
+  0 | cfork:create                            <fork ppid=380 cpid=386 execname=console-login time=374 />
+  0 | exec_common:exec-success                <process pid=386 execname=svcprop time=374 />
+  0 | proc_exit:exit                          <end pid=386 execname=svcprop time=374 />
+  0 | cfork:create                            <fork ppid=380 cpid=387 execname=console-login time=374 />
+  0 | exec_common:exec-success                <process pid=387 execname=svcprop time=374 />
+  0 | proc_exit:exit                          <end pid=387 execname=svcprop time=374 />
+  0 | cfork:create                            <fork ppid=380 cpid=388 execname=console-login time=374 />
+  0 | exec_common:exec-success                <process pid=388 execname=svcprop time=374 />
+  0 | proc_exit:exit                          <end pid=388 execname=svcprop time=374 />
+  0 | cfork:create                            <fork ppid=380 cpid=389 execname=console-login time=374 />
+  0 | exec_common:exec-success                <process pid=389 execname=svcprop time=375 />
+  0 | proc_exit:exit                          <end pid=389 execname=svcprop time=375 />
+  0 | cfork:create                            <fork ppid=380 cpid=390 execname=console-login time=375 />
+  0 | exec_common:exec-success                <process pid=390 execname=svcprop time=375 />
+  0 | proc_exit:exit                          <end pid=390 execname=svcprop time=375 />
+  0 | cfork:create                            <fork ppid=380 cpid=391 execname=console-login time=375 />
+  0 | exec_common:exec-success                <process pid=391 execname=svcprop time=375 />
+  0 | proc_exit:exit                          <end pid=391 execname=svcprop time=375 />
+  0 | cfork:create                            <fork ppid=380 cpid=392 execname=console-login time=375 />
+  0 | exec_common:exec-success                <process pid=392 execname=uname time=375 />
+  0 | proc_exit:exit                          <end pid=392 execname=uname time=375 />
+  0 | exec_common:exec-success                <process pid=380 execname=ttymon time=375 />
+  0 | cfork:create                            <fork ppid=356 cpid=393 execname=ksh93 time=375 />
+  0 | exec_common:exec-success                <process pid=382 execname=nawk time=375 />
+  0 | proc_exit:exit                          <end pid=382 execname=nawk time=375 />
+  0 | exec_common:exec-success                <process pid=393 execname=ln time=375 />
+  0 | proc_exit:exit                          <end pid=393 execname=ln time=375 />
+  0 | cfork:create                            <fork ppid=347 cpid=394 execname=svc-ndp time=375 />
+  0 | cfork:create                            <fork ppid=356 cpid=395 execname=ksh93 time=375 />
+  0 | exec_common:exec-success                <process pid=394 execname=routeadm time=375 />
+  0 | proc_exit:exit                          <end pid=394 execname=routeadm time=375 />
+  0 | proc_exit:exit                          <end pid=383 execname=mdnsd time=375 />
+  0 | exec_common:exec-success                <process pid=395 execname=ls time=375 />
+  0 | proc_exit:exit                          <end pid=395 execname=ls time=375 />
+  0 | proc_exit:exit                          <end pid=378 execname=mdnsd time=376 />
+  0 | cfork:create                            <fork ppid=369 cpid=396 execname=inetd time=376 />
+  0 | exec_common:exec-success                <process pid=396 execname=ksh time=376 />
+  0 | cfork:create                            <fork ppid=396 cpid=397 execname=ksh time=376 />
+  0 | exec_common:exec-success                <process pid=397 execname=ksh93 time=376 />
+  0 | exec_common:exec-success                <process pid=397 execname=ksh93 time=376 />
+  0 | proc_exit:exit                          <end pid=397 execname=ksh93 time=376 />
+  0 | cfork:create                            <fork ppid=7 cpid=398 execname=svc.startd time=378 />
+  0 | exec_common:exec-success                <process pid=398 execname=ksh93 time=378 />
+  0 | cfork:create                            <fork ppid=7 cpid=399 execname=svc.startd time=378 />
+  0 | exec_common:exec-success                <process pid=399 execname=ksh93 time=378 />
+  0 | exec_common:exec-success                <process pid=398 execname=svc-avahi-bridge time=378 />
+  0 | cfork:create                            <fork ppid=398 cpid=400 execname=svc-avahi-bridge time=379 />
+  0 | exec_common:exec-success                <process pid=399 execname=sshd time=379 />
+  0 | cfork:create                            <fork ppid=399 cpid=401 execname=sshd time=379 />
+  0 | exec_common:exec-success                <process pid=400 execname=avahi-daemon-bri time=379 />
+  0 | cfork:create                            <fork ppid=7 cpid=402 execname=svc.startd time=379 />
+  0 | exec_common:exec-success                <process pid=402 execname=ksh93 time=379 />
+  0 | exec_common:exec-success                <process pid=402 execname=rc2 time=380 />
+  0 | cfork:create                            <fork ppid=402 cpid=403 execname=rc2 time=380 />
+  0 | exec_common:exec-success                <process pid=403 execname=who time=380 />
+  0 | exec_common:exec-success                <process pid=401 execname=sshd time=380 />
+  0 | cfork:create                            <fork ppid=400 cpid=404 execname=avahi-daemon-bri time=380 />
+  0 | proc_exit:exit                          <end pid=403 execname=who time=380 />
+  0 | cfork:create                            <fork ppid=402 cpid=405 execname=rc2 time=380 />
+  0 | cfork:create                            <fork ppid=404 cpid=406 execname=avahi-daemon-bri time=380 />
+  0 | exec_common:exec-success                <process pid=405 execname=uname time=380 />
+  0 | proc_exit:exit                          <end pid=405 execname=uname time=380 />
+  0 | cfork:create                            <fork ppid=402 cpid=407 execname=rc2 time=380 />
+  0 | exec_common:exec-success                <process pid=407 execname=netstrategy time=380 />
+  0 | proc_exit:exit                          <end pid=407 execname=netstrategy time=380 />
+  0 | proc_exit:exit                          <end pid=404 execname=avahi-daemon-bri time=380 />
+  0 | cfork:create                            <fork ppid=402 cpid=408 execname=rc2 time=381 />
+  0 | exec_common:exec-success                <process pid=408 execname=lsvcrun time=381 />
+  0 | cfork:create                            <fork ppid=408 cpid=409 execname=lsvcrun time=381 />
+  0 | exec_common:exec-success                <process pid=409 execname=ksh93 time=381 />
+  0 | cfork:create                            <fork ppid=347 cpid=410 execname=svc-ndp time=382 />
+  0 | cfork:create                            <fork ppid=356 cpid=411 execname=ksh93 time=382 />
+  0 | exec_common:exec-success                <process pid=410 execname=nawk time=382 />
+  0 | cfork:create                            <fork ppid=409 cpid=412 execname=ksh93 time=382 />
+  0 | proc_exit:exit                          <end pid=410 execname=nawk time=382 />
+  0 | cfork:create                            <fork ppid=347 cpid=413 execname=svc-ndp time=382 />
+  0 | exec_common:exec-success                <process pid=411 execname=sort time=382 />
+  0 | exec_common:exec-success                <process pid=411 execname=sort time=382 />
+  0 | proc_exit:exit                          <end pid=411 execname=sort time=382 />
+  0 | cfork:create                            <fork ppid=356 cpid=414 execname=ksh93 time=382 />
+  0 | exec_common:exec-success                <process pid=414 execname=ls time=382 />
+  0 | proc_exit:exit                          <end pid=414 execname=ls time=382 />
+  0 | exec_common:exec-success                <process pid=412 execname=cat time=382 />
+  0 | proc_exit:exit                          <end pid=412 execname=cat time=382 />
+  0 | proc_exit:exit                          <end pid=409 execname=ksh93 time=382 />
+  0 | proc_exit:exit                          <end pid=396 execname=ksh time=382 />
+  0 | cfork:create                            <fork ppid=369 cpid=415 execname=inetd time=382 />
+  0 | exec_common:exec-success                <process pid=415 execname=ksh time=382 />
+  0 | cfork:create                            <fork ppid=415 cpid=416 execname=ksh time=382 />
+  0 | exec_common:exec-success                <process pid=416 execname=ksh93 time=382 />
+  0 | exec_common:exec-success                <process pid=416 execname=ksh93 time=382 />
+  0 | proc_exit:exit                          <end pid=416 execname=ksh93 time=382 />
+  0 | exec_common:exec-success                <process pid=413 execname=in.ndpd time=382 />
+  0 | cfork:create                            <fork ppid=413 cpid=417 execname=in.ndpd time=382 />
+  0 | proc_exit:exit                          <end pid=408 execname=lsvcrun time=382 />
+  0 | cfork:create                            <fork ppid=402 cpid=418 execname=rc2 time=382 />
+  0 | exec_common:exec-success                <process pid=418 execname=lsvcrun time=382 />
+  0 | cfork:create                            <fork ppid=418 cpid=419 execname=lsvcrun time=383 />
+  0 | exec_common:exec-success                <process pid=419 execname=ksh93 time=383 />
+  0 | cfork:create                            <fork ppid=401 cpid=420 execname=sshd time=383 />
+  0 | proc_exit:exit                          <end pid=401 execname=sshd time=383 />
+  0 | proc_exit:exit                          <end pid=399 execname=sshd time=383 />
+  0 | proc_exit:exit                          <end pid=352 execname=fmd time=383 />
+  0 | proc_exit:exit                          <end pid=419 execname=ksh93 time=384 />
+  0 | proc_exit:exit                          <end pid=418 execname=lsvcrun time=384 />
+  0 | cfork:create                            <fork ppid=402 cpid=421 execname=rc2 time=384 />
+  0 | exec_common:exec-success                <process pid=421 execname=lsvcrun time=384 />
+  0 | cfork:create                            <fork ppid=421 cpid=422 execname=lsvcrun time=384 />
+  0 | exec_common:exec-success                <process pid=422 execname=ksh93 time=384 />
+  0 | proc_exit:exit                          <end pid=422 execname=ksh93 time=384 />
+  0 | proc_exit:exit                          <end pid=400 execname=avahi-daemon-bri time=384 />
+  0 | proc_exit:exit                          <end pid=398 execname=svc-avahi-bridge time=384 />
+  0 | proc_exit:exit                          <end pid=415 execname=ksh time=384 />
+  0 | cfork:create                            <fork ppid=369 cpid=423 execname=inetd time=384 />
+  0 | exec_common:exec-success                <process pid=423 execname=ksh time=384 />
+  0 | cfork:create                            <fork ppid=423 cpid=424 execname=ksh time=384 />
+  0 | exec_common:exec-success                <process pid=424 execname=ksh93 time=384 />
+  0 | exec_common:exec-success                <process pid=424 execname=ksh93 time=384 />
+  0 | proc_exit:exit                          <end pid=424 execname=ksh93 time=385 />
+  0 | proc_exit:exit                          <end pid=423 execname=ksh time=385 />
+  0 | cfork:create                            <fork ppid=369 cpid=425 execname=inetd time=387 />
+  0 | exec_common:exec-success                <process pid=425 execname=ksh time=387 />
+  0 | cfork:create                            <fork ppid=425 cpid=426 execname=ksh time=387 />
+  0 | exec_common:exec-success                <process pid=426 execname=ksh93 time=387 />
+  0 | exec_common:exec-success                <process pid=426 execname=ksh93 time=387 />
+  0 | proc_exit:exit                          <end pid=426 execname=ksh93 time=387 />
+  0 | proc_exit:exit                          <end pid=425 execname=ksh time=387 />
+  0 | cfork:create                            <fork ppid=369 cpid=427 execname=inetd time=387 />
+  0 | exec_common:exec-success                <process pid=427 execname=ksh time=387 />
+  0 | cfork:create                            <fork ppid=427 cpid=428 execname=ksh time=387 />
+  0 | exec_common:exec-success                <process pid=428 execname=ksh93 time=387 />
+  0 | exec_common:exec-success                <process pid=428 execname=ksh93 time=387 />
+  0 | proc_exit:exit                          <end pid=428 execname=ksh93 time=387 />
+  0 | proc_exit:exit                          <end pid=427 execname=ksh time=387 />
+  0 | cfork:create                            <fork ppid=369 cpid=429 execname=inetd time=387 />
+  0 | exec_common:exec-success                <process pid=429 execname=ksh time=387 />
+  0 | cfork:create                            <fork ppid=429 cpid=430 execname=ksh time=387 />
+  0 | exec_common:exec-success                <process pid=430 execname=ksh93 time=387 />
+  0 | exec_common:exec-success                <process pid=430 execname=ksh93 time=387 />
+  0 | proc_exit:exit                          <end pid=430 execname=ksh93 time=387 />
+  0 | proc_exit:exit                          <end pid=421 execname=lsvcrun time=388 />
+  0 | cfork:create                            <fork ppid=402 cpid=431 execname=rc2 time=388 />
+  0 | exec_common:exec-success                <process pid=431 execname=lsvcrun time=388 />
+  0 | cfork:create                            <fork ppid=431 cpid=432 execname=lsvcrun time=388 />
+  0 | exec_common:exec-success                <process pid=432 execname=ksh93 time=388 />
+  0 | proc_exit:exit                          <end pid=429 execname=ksh time=388 />
+  0 | cfork:create                            <fork ppid=432 cpid=433 execname=ksh93 time=388 />
+  0 | exec_common:exec-success                <process pid=433 execname=cfsfstype time=388 />
+  0 | proc_exit:exit                          <end pid=433 execname=cfsfstype time=389 />
+  0 | proc_exit:exit                          <end pid=432 execname=ksh93 time=389 />
+  0 | proc_exit:exit                          <end pid=431 execname=lsvcrun time=389 />
+  0 | cfork:create                            <fork ppid=402 cpid=434 execname=rc2 time=389 />
+  0 | exec_common:exec-success                <process pid=434 execname=lsvcrun time=389 />
+  0 | cfork:create                            <fork ppid=434 cpid=435 execname=lsvcrun time=389 />
+  0 | exec_common:exec-success                <process pid=435 execname=ksh93 time=389 />
+  0 | cfork:create                            <fork ppid=435 cpid=436 execname=ksh93 time=389 />
+  0 | exec_common:exec-success                <process pid=436 execname=grep time=389 />
+  0 | proc_exit:exit                          <end pid=436 execname=grep time=389 />
+  0 | cfork:create                            <fork ppid=356 cpid=437 execname=ksh93 time=390 />
+  0 | proc_exit:exit                          <end pid=413 execname=in.ndpd time=390 />
+  0 | proc_exit:exit                          <end pid=347 execname=svc-ndp time=390 />
+  0 | exec_common:exec-success                <process pid=435 execname=datadm time=390 />
+  0 | proc_exit:exit                          <end pid=435 execname=datadm time=390 />
+  0 | exec_common:exec-success                <process pid=437 execname=nawk time=390 />
+  0 | proc_exit:exit                          <end pid=437 execname=nawk time=390 />
+  0 | cfork:create                            <fork ppid=356 cpid=438 execname=ksh93 time=390 />
+  0 | exec_common:exec-success                <process pid=438 execname=rm time=390 />
+  0 | proc_exit:exit                          <end pid=438 execname=rm time=390 />
+  0 | proc_exit:exit                          <end pid=356 execname=ksh93 time=390 />
+  0 | proc_exit:exit                          <end pid=434 execname=lsvcrun time=391 />
+  0 | cfork:create                            <fork ppid=402 cpid=439 execname=rc2 time=391 />
+  0 | exec_common:exec-success                <process pid=439 execname=lsvcrun time=391 />
+  0 | cfork:create                            <fork ppid=439 cpid=440 execname=lsvcrun time=391 />
+  0 | exec_common:exec-success                <process pid=440 execname=ksh93 time=391 />
+  0 | proc_exit:exit                          <end pid=440 execname=ksh93 time=391 />
+  0 | proc_exit:exit                          <end pid=439 execname=lsvcrun time=391 />
+  0 | cfork:create                            <fork ppid=402 cpid=441 execname=rc2 time=391 />
+  0 | exec_common:exec-success                <process pid=441 execname=lsvcrun time=391 />
+  0 | cfork:create                            <fork ppid=441 cpid=442 execname=lsvcrun time=391 />
+  0 | exec_common:exec-success                <process pid=442 execname=ksh93 time=391 />
+  0 | cfork:create                            <fork ppid=442 cpid=443 execname=ksh93 time=391 />
+  0 | exec_common:exec-success                <process pid=443 execname=auditconfig time=391 />
+  0 | proc_exit:exit                          <end pid=443 execname=auditconfig time=392 />
+  0 | proc_exit:exit                          <end pid=442 execname=ksh93 time=392 />
+  0 | proc_exit:exit                          <end pid=441 execname=lsvcrun time=393 />
+  0 | cfork:create                            <fork ppid=402 cpid=444 execname=rc2 time=393 />
+  0 | exec_common:exec-success                <process pid=444 execname=devfsadm time=393 />
+  0 | proc_exit:exit                          <end pid=444 execname=devfsadm time=393 />
+  0 | proc_exit:exit                          <end pid=402 execname=rc2 time=393 />
+  0 | cfork:create                            <fork ppid=7 cpid=445 execname=svc.startd time=394 />
+  0 | exec_common:exec-success                <process pid=445 execname=ksh93 time=394 />
+  0 | exec_common:exec-success                <process pid=445 execname=gdm time=394 />
+  0 | cfork:create                            <fork ppid=7 cpid=446 execname=svc.startd time=394 />
+  0 | exec_common:exec-success                <process pid=446 execname=ksh93 time=394 />
+  0 | cfork:create                            <fork ppid=445 cpid=447 execname=gdm time=395 />
+  0 | exec_common:exec-success                <process pid=446 execname=svc-intrd time=395 />
+  0 | cfork:create                            <fork ppid=446 cpid=448 execname=svc-intrd time=395 />
+  0 | exec_common:exec-success                <process pid=447 execname=i386 time=395 />
+  0 | proc_exit:exit                          <end pid=447 execname=i386 time=395 />
+  0 | exec_common:exec-success                <process pid=448 execname=pgrep time=395 />
+  0 | proc_exit:exit                          <end pid=448 execname=pgrep time=395 />
+  0 | cfork:create                            <fork ppid=446 cpid=449 execname=svc-intrd time=395 />
+  0 | cfork:create                            <fork ppid=445 cpid=450 execname=gdm time=395 />
+  0 | exec_common:exec-success                <process pid=450 execname=su time=395 />
+  0 | proc_exit:exit                          <end pid=446 execname=svc-intrd time=396 />
+  0 | exec_common:exec-success                <process pid=449 execname=intrd time=397 />
+  0 | exec_common:exec-success                <process pid=450 execname=ksh93 time=398 />
+  0 | exec_common:exec-success                <process pid=450 execname=dbus-launch time=398 />
+  0 | cfork:create                            <fork ppid=450 cpid=451 execname=dbus-launch time=402 />
+  0 | cfork:create                            <fork ppid=451 cpid=452 execname=dbus-launch time=402 />
+  0 | exec_common:exec-success                <process pid=452 execname=dbus-daemon time=402 />
+  0 | cfork:create                            <fork ppid=451 cpid=453 execname=dbus-launch time=404 />
+  0 | cfork:create                            <fork ppid=452 cpid=454 execname=dbus-daemon time=405 />
+  0 | proc_exit:exit                          <end pid=452 execname=dbus-daemon time=405 />
+  0 | cfork:create                            <fork ppid=369 cpid=455 execname=inetd time=406 />
+  0 | exec_common:exec-success                <process pid=455 execname=ksh time=406 />
+  0 | cfork:create                            <fork ppid=455 cpid=456 execname=ksh time=406 />
+  0 | exec_common:exec-success                <process pid=456 execname=ksh93 time=406 />
+  0 | exec_common:exec-success                <process pid=456 execname=ksh93 time=406 />
+  0 | proc_exit:exit                          <end pid=456 execname=ksh93 time=406 />
+  0 | proc_exit:exit                          <end pid=451 execname=dbus-launch time=407 />
+  0 | proc_exit:exit                          <end pid=450 execname=dbus-launch time=407 />
+  0 | proc_exit:exit                          <end pid=453 execname=dbus-launch time=407 />
+  0 | exec_common:exec-success                <process pid=445 execname=gdm-binary time=407 />
+  0 | proc_exit:exit                          <end pid=455 execname=ksh time=407 />
+  0 | cfork:create                            <fork ppid=369 cpid=457 execname=inetd time=407 />
+  0 | exec_common:exec-success                <process pid=457 execname=ksh time=407 />
+  0 | cfork:create                            <fork ppid=457 cpid=458 execname=ksh time=407 />
+  0 | exec_common:exec-success                <process pid=458 execname=ksh93 time=407 />
+  0 | exec_common:exec-success                <process pid=458 execname=ksh93 time=407 />
+  0 | proc_exit:exit                          <end pid=458 execname=ksh93 time=408 />
+  0 | proc_exit:exit                          <end pid=457 execname=ksh time=408 />
+  0 | cfork:create                            <fork ppid=369 cpid=459 execname=inetd time=408 />
+  0 | exec_common:exec-success                <process pid=459 execname=ksh time=408 />
+  0 | cfork:create                            <fork ppid=459 cpid=460 execname=ksh time=408 />
+  0 | exec_common:exec-success                <process pid=460 execname=ksh93 time=408 />
+  0 | exec_common:exec-success                <process pid=460 execname=ksh93 time=408 />
+  0 | cfork:create                            <fork ppid=445 cpid=461 execname=gdm-binary time=408 />
+  0 | proc_exit:exit                          <end pid=445 execname=gdm-binary time=408 />
+  0 | proc_exit:exit                          <end pid=460 execname=ksh93 time=408 />
+  0 | proc_exit:exit                          <end pid=459 execname=ksh time=408 />
+  0 | cfork:create                            <fork ppid=461 cpid=462 execname=gdm-binary time=408 />
+  0 | cfork:create                            <fork ppid=462 cpid=463 execname=gdm-binary time=409 />
+  0 | exec_common:exec-success                <process pid=463 execname=Xserver time=409 />
+  0 | exec_common:exec-success                <process pid=463 execname=ksh93 time=409 />
+  0 | exec_common:exec-success                <process pid=463 execname=ksh93 time=409 />
+  0 | cfork:create                            <fork ppid=463 cpid=464 execname=ksh93 time=409 />
+  0 | exec_common:exec-success                <process pid=464 execname=arch time=409 />
+  0 | cfork:create                            <fork ppid=464 cpid=465 execname=arch time=409 />
+  0 | exec_common:exec-success                <process pid=465 execname=uname time=409 />
+  0 | proc_exit:exit                          <end pid=465 execname=uname time=409 />
+  0 | cfork:create                            <fork ppid=464 cpid=466 execname=arch time=409 />
+  0 | exec_common:exec-success                <process pid=466 execname=uname time=409 />
+  0 | proc_exit:exit                          <end pid=466 execname=uname time=409 />
+  0 | cfork:create                            <fork ppid=464 cpid=467 execname=arch time=409 />
+  0 | exec_common:exec-success                <process pid=467 execname=echo time=409 />
+  0 | proc_exit:exit                          <end pid=467 execname=echo time=410 />
+  0 | proc_exit:exit                          <end pid=464 execname=arch time=410 />
+  0 | cfork:create                            <fork ppid=463 cpid=468 execname=ksh93 time=410 />
+  0 | exec_common:exec-success                <process pid=468 execname=expr time=410 />
+  0 | proc_exit:exit                          <end pid=468 execname=expr time=410 />
+  0 | cfork:create                            <fork ppid=463 cpid=469 execname=ksh93 time=410 />
+  0 | proc_exit:exit                          <end pid=469 execname=ksh93 time=410 />
+  0 | cfork:create                            <fork ppid=463 cpid=470 execname=ksh93 time=410 />
+  0 | exec_common:exec-success                <process pid=470 execname=sed time=410 />
+  0 | proc_exit:exit                          <end pid=470 execname=sed time=410 />
+  0 | cfork:create                            <fork ppid=463 cpid=471 execname=ksh93 time=410 />
+  0 | exec_common:exec-success                <process pid=471 execname=svcprop time=410 />
+  0 | proc_exit:exit                          <end pid=471 execname=svcprop time=411 />
+  0 | cfork:create                            <fork ppid=463 cpid=472 execname=ksh93 time=411 />
+  0 | exec_common:exec-success                <process pid=472 execname=svcprop time=411 />
+  0 | proc_exit:exit                          <end pid=472 execname=svcprop time=413 />
+  0 | cfork:create                            <fork ppid=463 cpid=473 execname=ksh93 time=413 />
+  0 | exec_common:exec-success                <process pid=473 execname=svcprop time=413 />
+  0 | proc_exit:exit                          <end pid=473 execname=svcprop time=413 />
+  0 | cfork:create                            <fork ppid=463 cpid=474 execname=ksh93 time=413 />
+  0 | exec_common:exec-success                <process pid=474 execname=svcprop time=413 />
+  0 | proc_exit:exit                          <end pid=474 execname=svcprop time=413 />
+  0 | cfork:create                            <fork ppid=463 cpid=475 execname=ksh93 time=413 />
+  0 | exec_common:exec-success                <process pid=475 execname=svcprop time=413 />
+  0 | proc_exit:exit                          <end pid=475 execname=svcprop time=416 />
+  0 | cfork:create                            <fork ppid=463 cpid=476 execname=ksh93 time=416 />
+  0 | exec_common:exec-success                <process pid=476 execname=svcprop time=416 />
+  0 | proc_exit:exit                          <end pid=476 execname=svcprop time=416 />
+  0 | cfork:create                            <fork ppid=463 cpid=477 execname=ksh93 time=416 />
+  0 | exec_common:exec-success                <process pid=477 execname=svcprop time=416 />
+  0 | proc_exit:exit                          <end pid=477 execname=svcprop time=416 />
+  0 | cfork:create                            <fork ppid=463 cpid=478 execname=ksh93 time=416 />
+  0 | exec_common:exec-success                <process pid=478 execname=svcprop time=416 />
+  0 | proc_exit:exit                          <end pid=478 execname=svcprop time=417 />
+  0 | cfork:create                            <fork ppid=463 cpid=479 execname=ksh93 time=417 />
+  0 | exec_common:exec-success                <process pid=479 execname=svcprop time=417 />
+  0 | proc_exit:exit                          <end pid=479 execname=svcprop time=417 />
+  0 | cfork:create                            <fork ppid=463 cpid=480 execname=ksh93 time=417 />
+  0 | exec_common:exec-success                <process pid=480 execname=svcprop time=417 />
+  0 | proc_exit:exit                          <end pid=480 execname=svcprop time=418 />
+  0 | cfork:create                            <fork ppid=463 cpid=481 execname=ksh93 time=418 />
+  0 | exec_common:exec-success                <process pid=481 execname=svcprop time=418 />
+  0 | proc_exit:exit                          <end pid=481 execname=svcprop time=418 />
+  0 | cfork:create                            <fork ppid=463 cpid=482 execname=ksh93 time=418 />
+  0 | exec_common:exec-success                <process pid=482 execname=svcprop time=418 />
+  0 | proc_exit:exit                          <end pid=482 execname=svcprop time=418 />
+  0 | cfork:create                            <fork ppid=463 cpid=483 execname=ksh93 time=418 />
+  0 | exec_common:exec-success                <process pid=483 execname=svcprop time=418 />
+  0 | proc_exit:exit                          <end pid=483 execname=svcprop time=419 />
+  0 | cfork:create                            <fork ppid=463 cpid=484 execname=ksh93 time=419 />
+  0 | exec_common:exec-success                <process pid=484 execname=svcprop time=419 />
+  0 | proc_exit:exit                          <end pid=484 execname=svcprop time=420 />
+  0 | cfork:create                            <fork ppid=463 cpid=485 execname=ksh93 time=420 />
+  0 | exec_common:exec-success                <process pid=485 execname=svcprop time=420 />
+  0 | proc_exit:exit                          <end pid=485 execname=svcprop time=420 />
+  0 | cfork:create                            <fork ppid=463 cpid=486 execname=ksh93 time=420 />
+  0 | exec_common:exec-success                <process pid=486 execname=svcprop time=420 />
+  0 | proc_exit:exit                          <end pid=486 execname=svcprop time=420 />
+  0 | exec_common:exec-success                <process pid=463 execname=Xorg time=420 />
+  0 | exec_common:exec-success                <process pid=463 execname=Xorg time=420 />
+  0 | cfork:create                            <fork ppid=462 cpid=487 execname=gdm-binary time=422 />
+  0 | exec_common:exec-success                <process pid=487 execname=fbconsole time=422 />
+  0 | cfork:create                            <fork ppid=7 cpid=488 execname=svc.startd time=423 />
+  0 | exec_common:exec-success                <process pid=488 execname=ksh93 time=423 />
+  0 | exec_common:exec-success                <process pid=488 execname=rc3 time=424 />
+  0 | cfork:create                            <fork ppid=488 cpid=489 execname=rc3 time=424 />
+  0 | exec_common:exec-success                <process pid=489 execname=who time=424 />
+  0 | proc_exit:exit                          <end pid=489 execname=who time=425 />
+  0 | cfork:create                            <fork ppid=488 cpid=490 execname=rc3 time=425 />
+  0 | exec_common:exec-success                <process pid=490 execname=uname time=425 />
+  0 | proc_exit:exit                          <end pid=490 execname=uname time=425 />
+  0 | cfork:create                            <fork ppid=488 cpid=491 execname=rc3 time=425 />
+  0 | exec_common:exec-success                <process pid=491 execname=netstrategy time=425 />
+  0 | proc_exit:exit                          <end pid=491 execname=netstrategy time=425 />
+  0 | cfork:create                            <fork ppid=488 cpid=492 execname=rc3 time=425 />
+  0 | proc_exit:exit                          <end pid=488 execname=rc3 time=426 />
+  0 | cfork:create                            <fork ppid=7 cpid=493 execname=svc.startd time=426 />
+  0 | exec_common:exec-success                <process pid=493 execname=ksh93 time=427 />
+  0 | exec_common:exec-success                <process pid=493 execname=svc-zones time=427 />
+  0 | cfork:create                            <fork ppid=493 cpid=494 execname=svc-zones time=427 />
+  0 | exec_common:exec-success                <process pid=494 execname=egrep time=427 />
+  0 | proc_exit:exit                          <end pid=494 execname=egrep time=427 />
+  0 | proc_exit:exit                          <end pid=493 execname=svc-zones time=427 />
+  0 | cfork:create                            <fork ppid=112 cpid=495 execname=syseventd time=448 />
+  0 | exec_common:exec-success                <process pid=495 execname=devfsadm time=448 />
+  0 | cfork:create                            <fork ppid=495 cpid=496 execname=devfsadm time=448 />
+  0 | proc_exit:exit                          <end pid=495 execname=devfsadm time=448 />
+  0 | cfork:create                            <fork ppid=496 cpid=497 execname=devfsadm time=468 />
+  0 | exec_common:exec-success                <process pid=497 execname=ksh93 time=468 />
+  0 | exec_common:exec-success                <process pid=497 execname=pmadm time=468 />
+  0 | proc_exit:exit                          <end pid=497 execname=pmadm time=468 />
+  0 | exec_common:exec-success                <process pid=492 execname=modunload time=475 />
+  0 | exec_common:exec-success                <process pid=492 execname=modunload time=475 />
+  0 | proc_exit:exit                          <end pid=492 execname=modunload time=485 />
+  0 | cfork:create                            <fork ppid=463 cpid=498 execname=Xorg time=499 />
+  0 | exec_common:exec-success                <process pid=498 execname=ksh93 time=499 />
+  0 | exec_common:exec-success                <process pid=498 execname=xkbcomp time=499 />
+  0 | proc_exit:exit                          <end pid=498 execname=xkbcomp time=503 />
+  0 | cfork:create                            <fork ppid=462 cpid=499 execname=gdm-binary time=525 />
+  0 | exec_common:exec-success                <process pid=499 execname=Default time=525 />
+  0 | cfork:create                            <fork ppid=499 cpid=500 execname=Default time=525 />
+  0 | exec_common:exec-success                <process pid=500 execname=uname time=525 />
+  0 | proc_exit:exit                          <end pid=500 execname=uname time=525 />
+  0 | proc_exit:exit                          <end pid=499 execname=Default time=525 />
+  0 | cfork:create                            <fork ppid=462 cpid=501 execname=gdm-binary time=525 />
+  0 | exec_common:exec-success                <process pid=501 execname=ksh93 time=525 />
+  0 | exec_common:exec-success                <process pid=501 execname=setfacl time=525 />
+  0 | proc_exit:exit                          <end pid=501 execname=setfacl time=526 />
+  0 | cfork:create                            <fork ppid=462 cpid=502 execname=gdm-binary time=526 />
+  0 | exec_common:exec-success                <process pid=502 execname=ksh93 time=526 />
+  0 | exec_common:exec-success                <process pid=502 execname=setfacl time=526 />
+  0 | proc_exit:exit                          <end pid=502 execname=setfacl time=526 />
+  0 | cfork:create                            <fork ppid=462 cpid=503 execname=gdm-binary time=526 />
+  0 | exec_common:exec-success                <process pid=503 execname=gdmgreeter time=526 />
+  0 | cfork:create                            <fork ppid=503 cpid=504 execname=gdmgreeter time=562 />
+  0 | cfork:create                            <fork ppid=504 cpid=505 execname=gdmgreeter time=562 />
+  0 | proc_exit:exit                          <end pid=504 execname=gdmgreeter time=562 />
+  0 | exec_common:exec-success                <process pid=505 execname=gdmprefetch time=562 />
+  0 | proc_exit:exit                          <end pid=505 execname=gdmprefetch time=572 />
+  0 | proc_exit:exit                          <end pid=503 execname=gdmgreeter time=689 />
+  0 | cfork:create                            <fork ppid=462 cpid=506 execname=gdm-binary time=690 />
+  0 | cfork:create                            <fork ppid=506 cpid=507 execname=gdm-binary time=690 />
+  0 | exec_common:exec-success                <process pid=507 execname=Default time=690 />
+  0 | proc_exit:exit                          <end pid=507 execname=Default time=690 />
+  0 | exec_common:exec-success                <process pid=506 execname=Xsession time=690 />
+  0 | exec_common:exec-success                <process pid=506 execname=ksh93 time=690 />
+  0 | exec_common:exec-success                <process pid=506 execname=ksh93 time=690 />
+  0 | cfork:create                            <fork ppid=506 cpid=508 execname=ksh93 time=690 />
+  0 | exec_common:exec-success                <process pid=508 execname=i386 time=690 />
+  0 | proc_exit:exit                          <end pid=508 execname=i386 time=690 />
+  0 | cfork:create                            <fork ppid=506 cpid=509 execname=ksh93 time=691 />
+  0 | exec_common:exec-success                <process pid=509 execname=ggrep time=691 />
+  0 | proc_exit:exit                          <end pid=509 execname=ggrep time=691 />
+  0 | exec_common:exec-success                <process pid=506 execname=dtstart time=691 />
+  0 | exec_common:exec-success                <process pid=506 execname=ksh93 time=691 />
+  0 | exec_common:exec-success                <process pid=506 execname=ksh93 time=691 />
+  0 | cfork:create                            <fork ppid=506 cpid=510 execname=ksh93 time=691 />
+  0 | exec_common:exec-success                <process pid=510 execname=basename time=692 />
+  0 | proc_exit:exit                          <end pid=510 execname=basename time=692 />
+  0 | exec_common:exec-success                <process pid=506 execname=Xinitrc.jds time=692 />
+  0 | exec_common:exec-success                <process pid=506 execname=ksh93 time=692 />
+  0 | exec_common:exec-success                <process pid=506 execname=ksh93 time=692 />
+  0 | cfork:create                            <fork ppid=506 cpid=511 execname=ksh93 time=692 />
+  0 | exec_common:exec-success                <process pid=511 execname=xrdb time=692 />
+  0 | cfork:create                            <fork ppid=511 cpid=512 execname=xrdb time=692 />
+  0 | exec_common:exec-success                <process pid=512 execname=ksh93 time=692 />
+  0 | exec_common:exec-success                <process pid=512 execname=cpp time=693 />
+  0 | proc_exit:exit                          <end pid=512 execname=cpp time=693 />
+  0 | proc_exit:exit                          <end pid=511 execname=xrdb time=693 />
+  0 | cfork:create                            <fork ppid=506 cpid=513 execname=ksh93 time=693 />
+  0 | exec_common:exec-success                <process pid=513 execname=linc-cleanup-soc time=693 />
+  0 | proc_exit:exit                          <end pid=513 execname=linc-cleanup-soc time=693 />
+  0 | exec_common:exec-success                <process pid=506 execname=gnome-session time=693 />
+  0 | exec_common:exec-success                <process pid=506 execname=dbus-launch time=694 />
+  0 | cfork:create                            <fork ppid=506 cpid=514 execname=dbus-launch time=694 />
+  0 | cfork:create                            <fork ppid=514 cpid=515 execname=dbus-launch time=694 />
+  0 | exec_common:exec-success                <process pid=515 execname=dbus-daemon time=694 />
+  0 | cfork:create                            <fork ppid=514 cpid=516 execname=dbus-launch time=694 />
+  0 | cfork:create                            <fork ppid=515 cpid=517 execname=dbus-daemon time=694 />
+  0 | proc_exit:exit                          <end pid=515 execname=dbus-daemon time=694 />
+  0 | proc_exit:exit                          <end pid=514 execname=dbus-launch time=694 />
+  0 | exec_common:exec-success                <process pid=506 execname=gnome-session time=694 />
+  0 | cfork:create                            <fork ppid=506 cpid=518 execname=gnome-session time=695 />
+  0 | exec_common:exec-success                <process pid=518 execname=postrun-query time=695 />
+  0 | exec_common:exec-success                <process pid=518 execname=ksh93 time=695 />
+  0 | exec_common:exec-success                <process pid=518 execname=ksh93 time=695 />
+  0 | cfork:create                            <fork ppid=518 cpid=519 execname=ksh93 time=695 />
+  0 | exec_common:exec-success                <process pid=519 execname=dirname time=695 />
+  0 | proc_exit:exit                          <end pid=519 execname=dirname time=695 />
+  0 | cfork:create                            <fork ppid=518 cpid=520 execname=ksh93 time=695 />
+  0 | exec_common:exec-success                <process pid=520 execname=pkginfo time=695 />
+  0 | proc_exit:exit                          <end pid=520 execname=pkginfo time=697 />
+  0 | cfork:create                            <fork ppid=518 cpid=521 execname=ksh93 time=697 />
+  0 | exec_common:exec-success                <process pid=521 execname=pkginfo time=697 />
+  0 | proc_exit:exit                          <end pid=521 execname=pkginfo time=697 />
+  0 | cfork:create                            <fork ppid=518 cpid=522 execname=ksh93 time=697 />
+  0 | exec_common:exec-success                <process pid=522 execname=grep time=697 />
+  0 | proc_exit:exit                          <end pid=522 execname=grep time=697 />
+  0 | cfork:create                            <fork ppid=518 cpid=523 execname=ksh93 time=697 />
+  0 | exec_common:exec-success                <process pid=523 execname=sed time=697 />
+  0 | proc_exit:exit                          <end pid=523 execname=sed time=698 />
+  0 | cfork:create                            <fork ppid=518 cpid=524 execname=ksh93 time=698 />
+  0 | exec_common:exec-success                <process pid=524 execname=sed time=698 />
+  0 | proc_exit:exit                          <end pid=524 execname=sed time=698 />
+  0 | cfork:create                            <fork ppid=518 cpid=525 execname=ksh93 time=698 />
+  0 | exec_common:exec-success                <process pid=525 execname=grep time=698 />
+  0 | proc_exit:exit                          <end pid=525 execname=grep time=698 />
+  0 | proc_exit:exit                          <end pid=518 execname=ksh93 time=698 />
+  0 | cfork:create                            <fork ppid=506 cpid=526 execname=gnome-session time=698 />
+  0 | exec_common:exec-success                <process pid=526 execname=gconf-sanity-che time=698 />
+  0 | proc_exit:exit                          <end pid=526 execname=gconf-sanity-che time=699 />
+  0 | cfork:create                            <fork ppid=517 cpid=527 execname=dbus-daemon time=699 />
+  0 | cfork:create                            <fork ppid=527 cpid=528 execname=dbus-daemon time=699 />
+  0 | exec_common:exec-success                <process pid=528 execname=gconfd-2 time=699 />
+  0 | proc_exit:exit                          <end pid=527 execname=dbus-daemon time=700 />
+  0 | cfork:create                            <fork ppid=506 cpid=529 execname=gnome-session time=712 />
+  0 | exec_common:exec-success                <process pid=529 execname=gnome-settings-d time=712 />
+  0 | cfork:create                            <fork ppid=529 cpid=530 execname=gnome-settings-d time=712 />
+  0 | cfork:create                            <fork ppid=506 cpid=531 execname=gnome-session time=712 />
+  0 | proc_exit:exit                          <end pid=529 execname=gnome-settings-d time=713 />
+  0 | exec_common:exec-success                <process pid=531 execname=gnome-settings-d time=713 />
+  0 | cfork:create                            <fork ppid=506 cpid=532 execname=gnome-session time=714 />
+  0 | exec_common:exec-success                <process pid=532 execname=gnome-keyring-da time=714 />
+  0 | cfork:create                            <fork ppid=532 cpid=533 execname=gnome-keyring-da time=714 />
+  0 | proc_exit:exit                          <end pid=531 execname=gnome-settings-d time=714 />
+  0 | exec_common:exec-success                <process pid=533 execname=gnome-keyring-da time=714 />
+  0 | cfork:create                            <fork ppid=530 cpid=534 execname=gnome-settings-d time=720 />
+  0 | exec_common:exec-success                <process pid=534 execname=xrdb time=720 />
+  0 | proc_exit:exit                          <end pid=534 execname=xrdb time=721 />
+  0 | cfork:create                            <fork ppid=517 cpid=535 execname=dbus-daemon time=722 />
+  0 | cfork:create                            <fork ppid=535 cpid=536 execname=dbus-daemon time=722 />
+  0 | exec_common:exec-success                <process pid=536 execname=gvfsd time=722 />
+  0 | proc_exit:exit                          <end pid=533 execname=gnome-keyring-da time=722 />
+  0 | proc_exit:exit                          <end pid=532 execname=gnome-keyring-da time=722 />
+  0 | cfork:create                            <fork ppid=506 cpid=537 execname=gnome-session time=722 />
+  0 | exec_common:exec-success                <process pid=537 execname=metacity time=722 />
+  0 | proc_exit:exit                          <end pid=535 execname=dbus-daemon time=722 />
+  0 | cfork:create                            <fork ppid=506 cpid=538 execname=gnome-session time=727 />
+  0 | exec_common:exec-success                <process pid=538 execname=gnome-panel time=727 />
+  0 | cfork:create                            <fork ppid=506 cpid=539 execname=gnome-session time=727 />
+  0 | exec_common:exec-success                <process pid=539 execname=nautilus time=728 />
+  0 | cfork:create                            <fork ppid=538 cpid=540 execname=gnome-panel time=728 />
+  0 | cfork:create                            <fork ppid=540 cpid=541 execname=gnome-panel time=729 />
+  0 | proc_exit:exit                          <end pid=540 execname=gnome-panel time=729 />
+  0 | cfork:create                            <fork ppid=506 cpid=542 execname=gnome-session time=729 />
+  0 | exec_common:exec-success                <process pid=541 execname=bonobo-activatio time=729 />
+  0 | exec_common:exec-success                <process pid=542 execname=gnome-at-visual time=729 />
+  0 | cfork:create                            <fork ppid=542 cpid=543 execname=gnome-at-visual time=729 />
+  0 | exec_common:exec-success                <process pid=543 execname=basename time=729 />
+  0 | proc_exit:exit                          <end pid=543 execname=basename time=729 />
+  0 | cfork:create                            <fork ppid=542 cpid=544 execname=gnome-at-visual time=729 />
+  0 | cfork:create                            <fork ppid=506 cpid=545 execname=gnome-session time=729 />
+  0 | exec_common:exec-success                <process pid=544 execname=gconftool-2 time=729 />
+  0 | proc_exit:exit                          <end pid=544 execname=gconftool-2 time=730 />
+  0 | cfork:create                            <fork ppid=542 cpid=546 execname=gnome-at-visual time=730 />
+  0 | exec_common:exec-success                <process pid=546 execname=gconftool-2 time=730 />
+  0 | proc_exit:exit                          <end pid=546 execname=gconftool-2 time=730 />
+  0 | cfork:create                            <fork ppid=542 cpid=547 execname=gnome-at-visual time=730 />
+  0 | exec_common:exec-success                <process pid=547 execname=gconftool-2 time=730 />
+  0 | proc_exit:exit                          <end pid=547 execname=gconftool-2 time=732 />
+  0 | exec_common:exec-success                <process pid=545 execname=dispswitch time=732 />
+  0 | cfork:create                            <fork ppid=506 cpid=548 execname=gnome-session time=732 />
+  0 | cfork:create                            <fork ppid=542 cpid=549 execname=gnome-at-visual time=732 />
+  0 | exec_common:exec-success                <process pid=549 execname=gconftool-2 time=732 />
+  0 | exec_common:exec-success                <process pid=548 execname=gnome-power-mana time=732 />
+  0 | proc_exit:exit                          <end pid=549 execname=gconftool-2 time=734 />
+  0 | proc_exit:exit                          <end pid=542 execname=gnome-at-visual time=734 />
+  0 | cfork:create                            <fork ppid=506 cpid=550 execname=gnome-session time=734 />
+  0 | exec_common:exec-success                <process pid=550 execname=xdg-user-dirs-gt time=734 />
+  0 | cfork:create                            <fork ppid=506 cpid=551 execname=gnome-session time=737 />
+  0 | exec_common:exec-success                <process pid=551 execname=opensolaris-icon time=738 />
+  0 | cfork:create                            <fork ppid=551 cpid=552 execname=opensolaris-icon time=738 />
+  0 | exec_common:exec-success                <process pid=552 execname=mkdir time=738 />
+  0 | proc_exit:exit                          <end pid=552 execname=mkdir time=738 />
+  0 | proc_exit:exit                          <end pid=551 execname=opensolaris-icon time=738 />
+  0 | cfork:create                            <fork ppid=506 cpid=553 execname=gnome-session time=741 />
+  0 | exec_common:exec-success                <process pid=553 execname=gnome-volume-man time=741 />
+  0 | cfork:create                            <fork ppid=506 cpid=554 execname=gnome-session time=741 />
+  0 | exec_common:exec-success                <process pid=554 execname=env time=741 />
+  0 | exec_common:exec-success                <process pid=554 execname=print-service time=741 />
+  0 | proc_exit:exit                          <end pid=545 execname=dispswitch time=742 />
+  0 | proc_exit:exit                          <end pid=550 execname=xdg-user-dirs-gt time=743 />
+  0 | cfork:create                            <fork ppid=506 cpid=555 execname=gnome-session time=744 />
+  0 | exec_common:exec-success                <process pid=555 execname=nwam-manager time=745 />
+  0 | cfork:create                            <fork ppid=553 cpid=556 execname=gnome-volume-man time=745 />
+  0 | proc_exit:exit                          <end pid=556 execname=gnome-volume-man time=746 />
+  0 | proc_exit:exit                          <end pid=553 execname=gnome-volume-man time=746 />
+  0 | cfork:create                            <fork ppid=506 cpid=557 execname=gnome-session time=746 />
+  0 | exec_common:exec-success                <process pid=557 execname=xsession time=746 />
+  0 | proc_exit:exit                          <end pid=557 execname=xsession time=746 />
+  0 | cfork:create                            <fork ppid=506 cpid=558 execname=gnome-session time=748 />
+  0 | exec_common:exec-success                <process pid=558 execname=xdg-user-dirs-up time=750 />
+  0 | cfork:create                            <fork ppid=506 cpid=559 execname=gnome-session time=750 />
+  0 | exec_common:exec-success                <process pid=559 execname=updatemanagernot time=751 />
+  0 | cfork:create                            <fork ppid=548 cpid=560 execname=gnome-power-mana time=752 />
+  0 | proc_exit:exit                          <end pid=558 execname=xdg-user-dirs-up time=752 />
+  0 | proc_exit:exit                          <end pid=548 execname=gnome-power-mana time=753 />
+  0 | cfork:create                            <fork ppid=560 cpid=561 execname=gnome-power-mana time=756 />
+  0 | proc_exit:exit                          <end pid=561 execname=gnome-power-mana time=757 />
+  0 | proc_exit:exit                          <end pid=560 execname=gnome-power-mana time=758 />
+  0 | cfork:create                            <fork ppid=554 cpid=562 execname=print-service time=761 />
+  0 | exec_common:exec-success                <process pid=562 execname=ksh93 time=761 />
+  0 | exec_common:exec-success                <process pid=562 execname=svcprop time=761 />
+  0 | proc_exit:exit                          <end pid=562 execname=svcprop time=762 />
+  0 | exec_common:exec-success                <process pid=554 execname=desktop-print-ma time=763 />
+  0 | cfork:create                            <fork ppid=541 cpid=563 execname=bonobo-activatio time=764 />
+  0 | cfork:create                            <fork ppid=563 cpid=564 execname=bonobo-activatio time=764 />
+  0 | exec_common:exec-success                <process pid=564 execname=wnck-applet time=764 />
+  0 | proc_exit:exit                          <end pid=563 execname=bonobo-activatio time=764 />
+  0 | exec_common:exec-success                <process pid=554 execname=ospm-applet time=764 />
+  0 | cfork:create                            <fork ppid=517 cpid=565 execname=dbus-daemon time=765 />
+  0 | cfork:create                            <fork ppid=565 cpid=566 execname=dbus-daemon time=765 />
+  0 | exec_common:exec-success                <process pid=566 execname=gvfs-hal-volume- time=765 />
+  0 | proc_exit:exit                          <end pid=565 execname=dbus-daemon time=765 />
+  0 | cfork:create                            <fork ppid=541 cpid=567 execname=bonobo-activatio time=766 />
+  0 | cfork:create                            <fork ppid=567 cpid=568 execname=bonobo-activatio time=766 />
+  0 | proc_exit:exit                          <end pid=567 execname=bonobo-activatio time=766 />
+  0 | exec_common:exec-success                <process pid=568 execname=trashapplet time=766 />
+  0 | cfork:create                            <fork ppid=536 cpid=569 execname=gvfsd time=768 />
+  0 | cfork:create                            <fork ppid=569 cpid=570 execname=gvfsd time=769 />
+  0 | proc_exit:exit                          <end pid=569 execname=gvfsd time=769 />
+  0 | proc_exit:exit                          <end pid=554 execname=ospm-applet time=769 />
+  0 | exec_common:exec-success                <process pid=570 execname=gvfsd-trash time=774 />
+  0 | cfork:create                            <fork ppid=530 cpid=571 execname=gnome-settings-d time=775 />
+  0 | exec_common:exec-success                <process pid=571 execname=xrdb time=775 />
+  0 | cfork:create                            <fork ppid=536 cpid=572 execname=gvfsd time=775 />
+  0 | cfork:create                            <fork ppid=572 cpid=573 execname=gvfsd time=775 />
+  0 | proc_exit:exit                          <end pid=572 execname=gvfsd time=776 />
+  0 | exec_common:exec-success                <process pid=573 execname=gvfsd-burn time=776 />
+  0 | proc_exit:exit                          <end pid=571 execname=xrdb time=777 />
+  0 | cfork:create                            <fork ppid=530 cpid=574 execname=gnome-settings-d time=778 />
+  0 | exec_common:exec-success                <process pid=574 execname=mkfontdir time=779 />
+  0 | cfork:create                            <fork ppid=574 cpid=575 execname=mkfontdir time=779 />
+  0 | exec_common:exec-success                <process pid=575 execname=dirname time=781 />
+  0 | proc_exit:exit                          <end pid=575 execname=dirname time=781 />
+  0 | exec_common:exec-success                <process pid=574 execname=mkfontscale time=783 />
+  0 | proc_exit:exit                          <end pid=574 execname=mkfontscale time=784 />
+  0 | cfork:create                            <fork ppid=530 cpid=576 execname=gnome-settings-d time=790 />
+  0 | cfork:create                            <fork ppid=576 cpid=577 execname=gnome-settings-d time=790 />
+  0 | proc_exit:exit                          <end pid=577 execname=gnome-settings-d time=790 />
+  0 | proc_exit:exit                          <end pid=576 execname=gnome-settings-d time=790 />
+  0 | cfork:create                            <fork ppid=530 cpid=578 execname=gnome-settings-d time=791 />
+  0 | proc_exit:exit                          <end pid=578 execname=gnome-settings-d time=791 />
+  0 | cfork:create                            <fork ppid=530 cpid=579 execname=gnome-settings-d time=793 />
+  0 | cfork:create                            <fork ppid=579 cpid=580 execname=gnome-settings-d time=793 />
+  0 | proc_exit:exit                          <end pid=579 execname=gnome-settings-d time=793 />
+  0 | exec_common:exec-success                <process pid=580 execname=xscreensaver time=794 />
+  0 | cfork:create                            <fork ppid=530 cpid=581 execname=gnome-settings-d time=796 />
+  0 | exec_common:exec-success                <process pid=581 execname=xrdb time=796 />
+  0 | cfork:create                            <fork ppid=581 cpid=582 execname=xrdb time=796 />
+  0 | exec_common:exec-success                <process pid=582 execname=ksh93 time=796 />
+  0 | exec_common:exec-success                <process pid=582 execname=cpp time=796 />
+  0 | proc_exit:exit                          <end pid=582 execname=cpp time=796 />
+  0 | proc_exit:exit                          <end pid=581 execname=xrdb time=796 />
+  0 | cfork:create                            <fork ppid=580 cpid=583 execname=xscreensaver time=798 />
+  0 | proc_exit:exit                          <end pid=583 execname=xscreensaver time=798 />
+  0 | cfork:create                            <fork ppid=541 cpid=584 execname=bonobo-activatio time=822 />
+  0 | cfork:create                            <fork ppid=584 cpid=585 execname=bonobo-activatio time=822 />
+  0 | exec_common:exec-success                <process pid=585 execname=clock-applet time=822 />
+  0 | proc_exit:exit                          <end pid=584 execname=bonobo-activatio time=823 />
+  0 | cfork:create                            <fork ppid=541 cpid=586 execname=bonobo-activatio time=824 />
+  0 | cfork:create                            <fork ppid=586 cpid=587 execname=bonobo-activatio time=824 />
+  0 | proc_exit:exit                          <end pid=586 execname=bonobo-activatio time=824 />
+  0 | cfork:create                            <fork ppid=541 cpid=588 execname=bonobo-activatio time=824 />
+  0 | cfork:create                            <fork ppid=588 cpid=589 execname=bonobo-activatio time=824 />
+  0 | proc_exit:exit                          <end pid=588 execname=bonobo-activatio time=824 />
+  0 | cfork:create                            <fork ppid=541 cpid=590 execname=bonobo-activatio time=824 />
+  0 | exec_common:exec-success                <process pid=587 execname=notification-are time=824 />
+  0 | exec_common:exec-success                <process pid=589 execname=gnome-netstatus- time=824 />
+  0 | cfork:create                            <fork ppid=590 cpid=591 execname=bonobo-activatio time=825 />
+  0 | exec_common:exec-success                <process pid=591 execname=mixer_applet2 time=825 />
+  0 | proc_exit:exit                          <end pid=590 execname=bonobo-activatio time=825 />
+  0 | cfork:create                            <fork ppid=559 cpid=592 execname=updatemanagernot time=827 />
+  0 | exec_common:exec-success                <process pid=592 execname=ksh93 time=827 />
+  0 | exec_common:exec-success                <process pid=592 execname=uname time=828 />
+  0 | proc_exit:exit                          <end pid=592 execname=uname time=828 />
+  0 | cfork:create                            <fork ppid=517 cpid=593 execname=dbus-daemon time=851 />
+  0 | cfork:create                            <fork ppid=593 cpid=594 execname=dbus-daemon time=851 />
+  0 | exec_common:exec-success                <process pid=594 execname=gnome-power-mana time=851 />
+  0 | cfork:create                            <fork ppid=594 cpid=595 execname=gnome-power-mana time=853 />
+  0 | proc_exit:exit                          <end pid=595 execname=gnome-power-mana time=853 />
+  0 | proc_exit:exit                          <end pid=594 execname=gnome-power-mana time=853 />
+  0 | proc_exit:exit                          <end pid=593 execname=dbus-daemon time=853 />
+  0 | cfork:create                            <fork ppid=589 cpid=596 execname=gnome-netstatus- time=854 />
+  0 | exec_common:exec-success                <process pid=596 execname=pfexec time=854 />
+  0 | exec_common:exec-success                <process pid=596 execname=gnome-netstatus- time=855 />
+  0 | cfork:create                            <fork ppid=591 cpid=597 execname=mixer_applet2 time=862 />
+  0 | proc_exit:exit                          <end pid=597 execname=mixer_applet2 time=862 />
+  0 | cfork:create                            <fork ppid=314 cpid=598 execname=hald-runner time=906 />
+  0 | exec_common:exec-success                <process pid=598 execname=hald-probe-print time=906 />
+  0 | proc_exit:exit                          <end pid=598 execname=hald-probe-print time=913 />
+  0 | proc_exit:exit                          <end pid=304 execname=hald time=917 />
+  0 | proc_exit:exit                          <end pid=301 execname=svc-hal time=917 />
+  0 | cfork:create                            <fork ppid=7 cpid=599 execname=svc.startd time=917 />
+  0 | exec_common:exec-success                <process pid=599 execname=ksh93 time=917 />
+  0 | exec_common:exec-success                <process pid=599 execname=svc-rmvolmgr time=918 />
+  0 | cfork:create                            <fork ppid=599 cpid=600 execname=svc-rmvolmgr time=918 />
+  0 | exec_common:exec-success                <process pid=600 execname=rmvolmgr time=918 />
+  0 | cfork:create                            <fork ppid=600 cpid=601 execname=rmvolmgr time=918 />
+  0 | proc_exit:exit                          <end pid=600 execname=rmvolmgr time=918 />
+  0 | proc_exit:exit                          <end pid=599 execname=svc-rmvolmgr time=918 />
+  0 | proc_exit:exit                          <end pid=336 execname=hald-probe-volum time=918 />
+  0 | cfork:create                            <fork ppid=538 cpid=602 execname=gnome-panel time=964 />
+  0 | cfork:create                            <fork ppid=602 cpid=603 execname=gnome-panel time=964 />
+  0 | proc_exit:exit                          <end pid=602 execname=gnome-panel time=964 />
+  0 | exec_common:exec-success                <process pid=603 execname=gnome-terminal time=965 />
+  0 | cfork:create                            <fork ppid=603 cpid=604 execname=gnome-terminal time=979 />
+  0 | exec_common:exec-success                <process pid=604 execname=gnome-pty-helper time=979 />
+  0 | cfork:create                            <fork ppid=604 cpid=605 execname=gnome-pty-helper time=979 />
+  0 | cfork:create                            <fork ppid=603 cpid=606 execname=gnome-terminal time=979 />
+  0 | exec_common:exec-success                <process pid=605 execname=utmp_update time=979 />
+  0 | proc_exit:exit                          <end pid=605 execname=utmp_update time=979 />
+  0 | exec_common:exec-success                <process pid=606 execname=bash time=979 />
+  0 | cfork:create                            <fork ppid=606 cpid=607 execname=bash time=981 />
+  0 | exec_common:exec-success                <process pid=607 execname=hostname time=981 />
+  0 | proc_exit:exit                          <end pid=607 execname=hostname time=981 />
+  0 | cfork:create                            <fork ppid=606 cpid=608 execname=bash time=981 />
+  0 | proc_exit:exit                          <end pid=608 execname=bash time=981 />
+  0 | cfork:create                            <fork ppid=606 cpid=609 execname=bash time=1006 />
+  0 | exec_common:exec-success                <process pid=609 execname=su time=1006 />
+  0 | exec_common:exec-success                <process pid=609 execname=bash time=1022 />
+  0 | cfork:create                            <fork ppid=609 cpid=610 execname=bash time=1022 />
+  0 | exec_common:exec-success                <process pid=610 execname=quota time=1022 />
+  0 | proc_exit:exit                          <end pid=610 execname=quota time=1022 />
+  0 | cfork:create                            <fork ppid=609 cpid=611 execname=bash time=1022 />
+  0 | exec_common:exec-success                <process pid=611 execname=cat time=1022 />
+  0 | proc_exit:exit                          <end pid=611 execname=cat time=1022 />
+  0 | cfork:create                            <fork ppid=609 cpid=612 execname=bash time=1022 />
+  0 | exec_common:exec-success                <process pid=612 execname=mail time=1022 />
+  0 | proc_exit:exit                          <end pid=612 execname=mail time=1022 />
+  0 | cfork:create                            <fork ppid=609 cpid=613 execname=bash time=1023 />
+  0 | exec_common:exec-success                <process pid=613 execname=hostname time=1023 />
+  0 | proc_exit:exit                          <end pid=613 execname=hostname time=1023 />
+  0 | cfork:create                            <fork ppid=609 cpid=614 execname=bash time=1023 />
+  0 | proc_exit:exit                          <end pid=614 execname=bash time=1023 />
+  0 | cfork:create                            <fork ppid=609 cpid=615 execname=bash time=1137 />
+  0 | exec_common:exec-success                <process pid=615 execname=dtrace time=1137 />
+  0 | exec_common:exec-success                <process pid=615 execname=dtrace time=1137 />
+
+
